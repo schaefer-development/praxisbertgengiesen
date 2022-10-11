@@ -36,15 +36,63 @@
 	
 		<div id="main">
 			<div class="inside">
-				<div class="mod_article first last block" id="lebenslauf">
+				<div class="mod_article first last block" id="startseite">
+
+  
+  
+					<div class="ce_text col-xs-12 col-sm-12 col-md-12 first block">
 					
-				<h1>Start</h1>
-	
-		
-	
-	
-	
-				</div>
+						  <h1>Hinweis</h1>
+					  
+					  
+						  <p>Seit 1. Januar 2022 wird die Praxis von Frau Dr. Bertgen-Giesen gemeinsam mit Frau Dr. Anna Katzer geführt.</p>
+					<p>Auch in der Coronakrise bleibt die Praxis geöffnet. Wir bieten nach Absprache Videosprechstunden und Telefontermine an.</p>  
+					  
+					  
+					
+					</div>
+					
+					<h1 class="ce_headline col-xs-12 col-sm-12 col-md-12">
+					  Herzlich Willkommen in meiner Praxis für Psychotherapie</h1>
+					
+					<div class="ce_image col-xs-offset-3 col-xs-6 col-sm-offset-4 col-sm-4 col-md-offset-4 col-md-4 block">
+					
+					  
+					  
+					  <figure class="image_container" style="margin-top:30px;margin-bottom:30px;">
+					
+						
+						
+					
+					<img src="Startseite%20-%20Dr-Dateien/marion_bertgen-giesen.jpg" alt="" width="300" height="300">
+					
+					
+					
+						
+						
+					  </figure>
+					
+					
+					</div>
+					
+					<div class="ce_text col-xs-12 col-sm-12 col-md-12 last block">
+					
+					  
+					  
+						  <p>Mein therapeutisches Angebot richtet sich an Erwachsene, die 
+					bei einer gesetzlichen Krankenkasse, Beihilfestelle oder Privatkasse 
+					versichert sind.</p>
+					<p>Die Praxis hat eine Kassenzulassung.</p>
+					<p>Als Wahlleistungen biete ich darüber hinaus Coaching oder Beratung an.</p>
+					<p>Zusätzlich arbeite ich als Supervisorin für ärztlich oder psychotherapeutisch tätige Kollegen.</p>
+					<p>Sie finden mich an zwei Standorten: in Remagen und in Bonn.</p>  
+					  
+					  
+					
+					</div>
+					
+					  
+					</div>
 			</div>
 		</div>
 	
