@@ -1,4 +1,5 @@
 <script>
+
 	import ContactAside from '$lib/components/ContactAside/ContactAside.svelte';
 	import MenuAsidePsychotherapie from '$lib/components/MenuAsidePsychotherapie/MenuAsidePsychotherapie.svelte';
 </script>
@@ -12,6 +13,9 @@
 					<img src={welcome_fallback} alt="Welcome" />
 				</picture>
 	-->
+
+
+	
 	<div id="container">	
 	
 		<aside id="left">

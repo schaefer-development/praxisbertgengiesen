@@ -7719,7 +7719,7 @@ button:focus-visible {
     width: 100%;
     height: 220px;
     display: block;
-    background-image: url("../static/logo.svg");
+    background-image: url("../logo.svg");
     background-size: 40% auto;
     background-position: 50% 80%;
     background-repeat: no-repeat;
@@ -7907,7 +7907,7 @@ button:focus-visible {
     margin: auto;
     display: block;
     height: 45vh;
-    background: url("../../files/data/images/bg_rheinblick.jpg");
+    background: url("../bg_rheinblick.jpg");
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -7916,26 +7916,26 @@ button:focus-visible {
   box-shadow: inset 0px 0px 23px 0px rgba(0,0,0,0.25);*/
   }
   .allgemeines #custom_bg {
-    background: url("../../files/data/images/bg_haus.jpg");
+    background: url("../bg_haus.jpg");
     background-size: cover;
     background-position: 70% 50%;
   }
   .lebenslauf #custom_bg,
   .fotogalerie #custom_bg {
-    background: url("../../files/data/images/bg_rheinblick.jpg");
+    background: url("../bg_rheinblick.jpg");
     background-size: cover;
     background-position: 50% 50%;
   }
   .startseite #custom_bg,
   .qualifikation #custom_bg,
   .schwerpunkte #custom_bg {
-    background: url("../../files/data/images/bg_gemaelde.jpg");
+    background: url("../bg_gemaelde.jpg");
     background-size: cover;
     background-position: 50% 50%;
   }
   .gesetzliche_krankenkassen #custom_bg,
   .beihilfen #custom_bg {
-    background: url("../../files/data/images/bg_dreiorangenesessel.jpg");
+    background: url("../bg_dreiorangenesessel.jpg");
     background-size: cover;
     background-position: 50% 50%;
   }
@@ -7959,7 +7959,7 @@ button:focus-visible {
   .privatkassen #custom_bg,
   .coaching_mit_system #custom_bg,
   .cognitive_coaching #custom_bg {
-    background: url("../../files/data/images/bg_zweirotesessel.jpg");
+    background: url("../bg_zweirotesessel.jpg");
     background-size: cover;
     background-position: 90% 80%;
   }
@@ -7984,7 +7984,7 @@ button:focus-visible {
   .supervision #custom_bg,
   .selbstzahler #custom_bg,
   .beratung #custom_bg {
-    background: url("../../files/data/images/bg_grausesessel.jpg");
+    background: url("../bg_grausesessel.jpg");
     background-size: cover;
     background-position: 90% 80%;
   }
@@ -8009,7 +8009,7 @@ button:focus-visible {
   .impressum #custom_bg,
   .sitemap #custom_bg,
   .gesendet #custom_bg {
-    background: url("../../files/data/images/bg_garten.jpg");
+    background: url("../bg_garten.jpg");
     background-size: cover;
     background-position: 70% 50%;
   }
@@ -8112,7 +8112,7 @@ button:focus-visible {
       height: 68.75px;
       background-size: 47% auto;
       background-position: 50% 50%;
-      background-image: url("../../files/data/images/logo_mobil.svg");
+      background-image: url("../logo_mobil.svg");
     }
     /*! #######################################################################
 
@@ -8168,7 +8168,7 @@ button:focus-visible {
       display: block;
       cursor: pointer;
       vertical-align: top !important;
-      background-image: url("../../files/data/images/mobil_menu_closed.svg");
+      background-image: url("../mobil_menu_closed.svg");
       background-size: 40px 35px;
       background-position: 50% 50%;
       background-repeat: no-repeat;
@@ -8211,7 +8211,7 @@ button:focus-visible {
       display: block;
       cursor: pointer;
       vertical-align: top !important;
-      background-image: url("../../files/data/images/mobil_menu_open.svg");
+      background-image: url("../mobil_menu_open.svg");
       background-size: 40px 35px;
       background-position: 50% 50%;
       background-repeat: no-repeat;
@@ -8787,7 +8787,7 @@ button:focus-visible {
     opacity: 0;
     border: 2px solid #fff;
     background-color: #378390;
-    background-image: url("../../files/data/images/arrow_top.svg");
+    background-image: url("../arrow_top.svg");
     background-size: 20px 20px;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -8969,13 +8969,13 @@ button:focus-visible {
     cursor: pointer;
   }
   .ce_sliderStart nav.slider-control a.slider-prev {
-    background-image: url("../../files/data/images/previous.svg");
+    background-image: url("../previous.svg");
   }
   .ce_sliderStart nav.slider-control a.slider-prev:hover {
     background-position: 15% 50%;
   }
   .ce_sliderStart nav.slider-control a.slider-next {
-    background-image: url("../../files/data/images/next.svg");
+    background-image: url("../next.svg");
   }
   .ce_sliderStart nav.slider-control a.slider-next:hover {
     background-position: 85% 50%;
@@ -9037,7 +9037,7 @@ button:focus-visible {
     text-align: center;
     width: 19%;
     height: 140px;
-    background: url("$lib/../static/footer_logo.svg");
+    background: url("../footer_logo.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 50%;
