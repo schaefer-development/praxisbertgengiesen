@@ -1,6 +1,6 @@
-<script>
+<script lang="ts">
 	import { page } from '$app/stores';
-
+	import { base } from '$app/paths';
 </script>
 
 
@@ -30,7 +30,7 @@
 			<ul class="level_2">
 			  <li class="first">
 				<a
-				  href="http://www.dr-bertgen-giesen.de/index.php/startseite.html"
+				  href="{base}/"
 				  title="Startseite"
 				  class="first"
 				  >Startseite</a
@@ -38,7 +38,7 @@
 			  </li>
 			  <li>
 				<a
-				  href="http://www.dr-bertgen-giesen.de/index.php/allgemeines.html"
+				  href="{base}/"
 				  title="Allgemeines"
 				  >Allgemeines</a
 				>
