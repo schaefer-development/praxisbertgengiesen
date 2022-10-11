@@ -7,11 +7,17 @@
 
 <header id="header">
 	<div class="inside">
+
+
 	  <div id="logo">
 		<a href="#"> </a>
 	  </div>
+
+
 	  <!-- indexer::stop -->
-	  <nav class="mod_navigation block" id="nav">
+	  <nav id="nav" class="mod_navigation block" >
+
+		<div class="menu_default">
 		<a
 		  href="/lebenslauf.html#skipNavigation1"
 		  class="invisible"
@@ -164,7 +170,68 @@
 		</ul>
   
 		<a id="skipNavigation1" class="invisible">&nbsp;</a>
+
+	</div>
+	<div class="menu_mobil">
+		<button>
+		
+		</button>
+	</div>
 	  </nav>
 	  <!-- indexer::continue -->
 	</div>
   </header>
+
+
+
+  <style>
+
+	#header .inside{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.menu_default{
+			display: block;
+		}
+	.menu_mobil{
+		display: none;
+	}
+
+
+	  /* ################################### MEDIA QUERY ########################################## */
+	  @media screen and (max-width: 1024px) {
+
+		#header .inside{
+			display: flex;
+			flex-direction: row;
+			padding: 0 0 0 68px;
+		}
+
+		.menu_default{
+			display: none;
+		}
+
+		.menu_mobil{
+			display: block;
+			width:68.75px;
+			height:68.75px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.menu_mobil button{
+			width:60px;
+			height:60px;
+			background-color: #fff;
+			border:none;
+			background-image: url("../mobil_menu_closed.svg");
+			background-position: center center;
+			background-repeat: no-repeat;
+		}
+
+
+	  }
+
+  </style>
