@@ -31,7 +31,10 @@
 			<div class="inside">
 				<div class="mod_article first last block" id="lebenslauf">
 					
-<h1>Allgemeines</h1>
+<h1>
+	gesetzliche_krankenkassen 
+
+</h1>
 	
 		
 	

@@ -13,7 +13,7 @@
 	  <!-- indexer::stop -->
 	  <nav class="mod_navigation block" id="nav">
 		<a
-		  href="http://www.dr-bertgen-giesen.de/index.php/lebenslauf.html#skipNavigation1"
+		  href="/lebenslauf.html#skipNavigation1"
 		  class="invisible"
 		  >Navigation überspringen</a
 		>
@@ -21,7 +21,7 @@
 		<ul class="level_1">
 		  <li class="submenu first">
 			<a
-			  href="http://www.dr-bertgen-giesen.de/index.php/startseite.html"
+			  href="/index"
 			  title="Psychotherapie"
 			  class="submenu first"
 			  aria-haspopup="true"
@@ -38,42 +38,42 @@
 			  </li>
 			  <li>
 				<a
-				  href="{base}/"
+				  href="{base}/allgemeines"
 				  title="Allgemeines"
 				  >Allgemeines</a
 				>
 			  </li>
 			  <li>
 				<a
-				  href="http://www.dr-bertgen-giesen.de/index.php/schwerpunkte.html"
+				  href="{base}/schwerpunkte"
 				  title="Schwerpunkte"
 				  >Schwerpunkte</a
 				>
 			  </li>
 			  <li>
 				<a
-				  href="http://www.dr-bertgen-giesen.de/index.php/gesetzliche_krankenkassen.html"
+				  href="{base}/gesetzliche_krankenkassen"
 				  title="Gesetzliche Krankenkassen"
 				  >Gesetzliche Krankenkassen</a
 				>
 			  </li>
 			  <li>
 				<a
-				  href="http://www.dr-bertgen-giesen.de/index.php/privatkassen.html"
+				  href="{base}/privatkassen"
 				  title="Privatkassen"
 				  >Privatkassen</a
 				>
 			  </li>
 			  <li>
 				<a
-				  href="http://www.dr-bertgen-giesen.de/index.php/selbstzahler.html"
+				  href="/{base}selbstzahler"
 				  title="Selbstzahler"
 				  >Selbstzahler</a
 				>
 			  </li>
 			  <li class="last">
 				<a
-				  href="http://www.dr-bertgen-giesen.de/index.php/beihilfen.html"
+				  href="{base}/beihilfen"
 				  title="Beihilfen"
 				  class="last"
 				  >Beihilfen</a
@@ -83,7 +83,7 @@
 		  </li>
 		  <li class="submenu">
 			<a
-			  href="http://www.dr-bertgen-giesen.de/index.php/cognitive_coaching.html"
+			  href="{base}/cognitive_coaching"
 			  title="Coaching, Supervision &amp; Beratung"
 			  class="submenu"
 			  aria-haspopup="true"
@@ -92,7 +92,7 @@
 			<ul class="level_2">
 			  <li class="first">
 				<a
-				  href="http://www.dr-bertgen-giesen.de/index.php/cognitive_coaching.html"
+				  href="{base}/cognitive_coaching"
 				  title="Cognitive Coaching"
 				  class="first"
 				  >Cognitive Coaching</a
@@ -100,21 +100,21 @@
 			  </li>
 			  <li>
 				<a
-				  href="http://www.dr-bertgen-giesen.de/index.php/coaching_mit_system.html"
+				  href="{base}/coaching_mit_system"
 				  title="Coaching mit System"
 				  >Coaching mit System</a
 				>
 			  </li>
 			  <li>
 				<a
-				  href="http://www.dr-bertgen-giesen.de/index.php/supervision.html"
+				  href="{base}/supervision"
 				  title="Supervision"
 				  >Supervision</a
 				>
 			  </li>
 			  <li class="last">
 				<a
-				  href="http://www.dr-bertgen-giesen.de/index.php/beratung.html"
+				  href="{base}/beratung"
 				  title="Beratung"
 				  class="last"
 				  >Beratung</a
@@ -127,16 +127,17 @@
 			  >Über mich</span
 			>
 			<ul class="level_2">
-			  <li class="first">
-				<a
-				  href="http://www.dr-bertgen-giesen.de/index.php/beratung.html"
-				  title="Beratung"
-				  class="last"
-				  >lebenslauf</a
-				>            </li>
+				<li class="first">
+					<a
+					  href="{base}/lebenslauf"
+					  title="Lebenslauf"
+					  class="first"
+					  >Lebenslauf</a
+					>
+				  </li>
 			  <li class="sibling">
 				<a
-				  href="http://www.dr-bertgen-giesen.de/index.php/qualifikation.html"
+				  href="{base}/qualifikation"
 				  title="Qualifikation"
 				  class="sibling"
 				  >Qualifikation</a
@@ -144,7 +145,7 @@
 			  </li>
 			  <li class="sibling">
 				<a
-				  href="http://www.dr-bertgen-giesen.de/index.php/kontakt_und_anfahrt.html"
+				  href="{base}/kontakt"
 				  title="Kontakt &amp; Anfahrt"
 				  class="sibling"
 				  >Kontakt &amp; Anfahrt</a
@@ -152,7 +153,7 @@
 			  </li>
 			  <li class="sibling last">
 				<a
-				  href="http://www.dr-bertgen-giesen.de/index.php/fotogalerie.html"
+				  href="{base}/fotogalerie"
 				  title="Fotogalerie"
 				  class="sibling last"
 				  >Fotogalerie</a

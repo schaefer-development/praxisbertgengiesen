@@ -1,3 +1,9 @@
+<script lang="ts">
+	import { page } from '$app/stores';
+	import { base } from '$app/paths';
+</script>
+
+
 <footer id="footer">
 	<div class="inside">
 	  <div class="one_third one">
@@ -41,19 +47,19 @@
 		Terminvergabe nach vorheriger telefonischer Absprache | Alle Kassen
 		und privat |
 		<a
-		  href="http://www.dr-bertgen-giesen.de/index.php/sitemap.html"
+		  href="{base}/sitemap"
 		  title="Sitemap"
 		  >Sitemap</a
 		>
 		|
 		<a
-		  href="http://www.dr-bertgen-giesen.de/index.php/datenschutz.html"
+		  href="{base}/datenschutz"
 		  title="Impressum"
 		  >Datenschutz</a
 		>
 		|
 		<a
-		  href="http://www.dr-bertgen-giesen.de/index.php/impressum.html"
+		  href="{base}/impressum"
 		  title="Impressum"
 		  >Impressum</a
 		></span
