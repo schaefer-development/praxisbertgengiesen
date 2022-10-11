@@ -24,18 +24,27 @@
 	
 		<div id="main">
 			<div class="inside">
-				<div class="mod_article first last block" id="lebenslauf">
-					
-<h1>
-	beratung 
+				<div class="mod_article first last block" id="beratung">
 
-</h1>
-	
-		
-	
-	
-	
-				</div>
+  
+  
+					<div class="ce_text col-xs-12 col-sm-12 col-md-12 first last block">
+					
+						  <h1>Beratung</h1>
+					  
+					  
+						  <p>Mein Beratungsangebot richtet sich an</p>
+					<ul>
+					<li>Menschen, bei denen eine Psychotherapie nicht notwendig ist, die aber trotzdem zu bestimmten Themen eine Beratung aus dem psychosozialen Bereich wünschen.</li>
+					<li>Patienten, die keine Psychotherapie nach den Richtlinien der gesetzlichen oder privaten Krankenkassen machen möchten, aber dennoch eine professionelle Beratung wünschen.</li>
+					</ul>  
+					  
+					  
+					
+					</div>
+					
+					  
+					</div>
 			</div>
 		</div>
 	

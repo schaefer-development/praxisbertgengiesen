@@ -24,18 +24,23 @@
 	
 		<div id="main">
 			<div class="inside">
-				<div class="mod_article first last block" id="lebenslauf">
-					
-<h1>
-	Supervision 
+				<div class="mod_article first last block" id="supervision">
 
-</h1>
-	
-		
-	
-	
-	
-				</div>
+  
+  
+					<div class="ce_text col-xs-12 col-sm-12 col-md-12 first last block">
+					
+						  <h1>Supervision</h1>
+					  
+					  
+						  <p>Als ausgebildete Supervisorin des Berufsverbandes Deutscher Psychologen (BdP) richtet sich mein Angebot an Fachkolleginnen und Kollegen, aber auch an Ausbildungskandidaten in der Verhaltenstherapie.</p>  
+					  
+					  
+					
+					</div>
+					
+					  
+					</div>
 			</div>
 		</div>
 	
