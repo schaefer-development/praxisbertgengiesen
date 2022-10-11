@@ -122,8 +122,8 @@
 			  </li>
 			</ul>
 		  </li>
-		  <li class="forward trail submenu last">
-			<span class="forward trail submenu last" aria-haspopup="true"
+		  <li class="submenu last">
+			<span class=" trail submenu last" aria-haspopup="true"
 			  >Über mich</span
 			>
 			<ul class="level_2">

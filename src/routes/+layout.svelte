@@ -10,12 +10,14 @@
 
 	<Header />
 
-
+<div class="default {$page.url.pathname.replace("/","")}">
 	<div class="custom">
-		<div id="custom_bg" class="{$page.url.pathname.substr($page.url.pathname.lastIndexOf('/'))}">
+		<div id="custom_bg">
 			<div class="inside"></div>
 		</div>
 	</div>
+</div>
+
 	<main>
 		<slot />
 	</main>

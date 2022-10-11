@@ -1,6 +1,7 @@
 <script>
 	import MenuAsideAboutMe from '$lib/components/MenuAsideAboutMe/MenuAsideAboutMe.svelte';
 	import ContactAside from '$lib/components/ContactAside/ContactAside.svelte';
+	import portrait from '$lib/assets/marion_bertgen-giesen.jpg';
 </script>
 	
 <svelte:head>
@@ -40,7 +41,7 @@
 						
 						
 					
-					<img src="marion_bertgen-giesen.jpg" alt="" width="300" height="300">
+					<img src="{portrait}" alt="" width="300" height="300">
 					
 					
 					

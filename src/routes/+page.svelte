@@ -3,6 +3,7 @@
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 	import MenuAsidePsychotherapie from '$lib/components/MenuAsidePsychotherapie/MenuAsidePsychotherapie.svelte';
+	import portrait from '$lib/assets/marion_bertgen-giesen.jpg';
 </script>
 	
 <svelte:head>
@@ -60,20 +61,11 @@
 					  Herzlich Willkommen in meiner Praxis für Psychotherapie</h1>
 					
 					<div class="ce_image col-xs-offset-3 col-xs-6 col-sm-offset-4 col-sm-4 col-md-offset-4 col-md-4 block">
-					
-					  
 					  
 					  <figure class="image_container" style="margin-top:30px;margin-bottom:30px;">
-					
-						
-						
-					
-					<img src="marion_bertgen-giesen.jpg" alt="" width="300" height="300">
-					
-					
-					
-						
-						
+										
+						<img src="{portrait}" alt="" width="300" height="300">
+	
 					  </figure>
 					
 					

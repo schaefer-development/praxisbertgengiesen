@@ -7900,14 +7900,14 @@ button:focus-visible {
     background-color: #f6f6f6;
     border-bottom: 1px solid #ccc;
   }
-  #custom_bg {
+  .default #custom_bg {
     position: relative;
     width: 100%;
     max-width: 1150px;
     margin: auto;
     display: block;
     height: 45vh;
-    background: url("../bg_rheinblick.jpg");
+    background: url("../bg_gemaelde.jpg");
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -8013,12 +8013,10 @@ button:focus-visible {
     background-size: cover;
     background-position: 70% 50%;
   }
-  .kontakt_und_anfahrt #wrapper .custom #custom_bg {
+  .kontakt #custom_bg {
     background-image: none;
   }
-  .kontakt_und_anfahrt #wrapper .custom #custom_bg .inside #custom_bg {
-    display: none;
-  }
+
   /* google maps */
   .ce_dlh_googlemaps {
     position: relative;
