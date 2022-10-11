@@ -40,7 +40,7 @@
 						
 						
 					
-					<img src="files/data/images/marion_bertgen-giesen.jpg" alt="" width="300" height="300">
+					<img src="marion_bertgen-giesen.jpg" alt="" width="300" height="300">
 					
 					
 					

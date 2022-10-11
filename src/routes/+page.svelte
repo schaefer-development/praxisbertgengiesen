@@ -16,6 +16,10 @@
 	<meta name="MobileOptimized" content="320">
 	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
 	<!--[if lt IE 9]><script src="assets/html5shiv/3.7.2/html5shiv-printshiv.min.js"></script><![endif]-->
+
+	<!--<script src="js/jquery-1.11.3.min"></script>
+	<script src="js/jquery.meanmenu.js"></script>-->
+
 	<style>@media print {#ghostery-tracker-tally {display:none !important}}</style>
 </svelte:head>
 
@@ -64,7 +68,7 @@
 						
 						
 					
-					<img src="Startseite%20-%20Dr-Dateien/marion_bertgen-giesen.jpg" alt="" width="300" height="300">
+					<img src="marion_bertgen-giesen.jpg" alt="" width="300" height="300">
 					
 					
 					
