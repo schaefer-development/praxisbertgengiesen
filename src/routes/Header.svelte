@@ -21,7 +21,7 @@
 		<ul class="level_1">
 		  <li class="submenu first">
 			<a
-			  href="/index"
+			  href="{base}/"
 			  title="Psychotherapie"
 			  class="submenu first"
 			  aria-haspopup="true"

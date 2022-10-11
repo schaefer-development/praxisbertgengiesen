@@ -1,28 +1,20 @@
 <script>
-
-	import MenuAsideAboutMe from '$lib/components/MenuAsideAboutMe/MenuAsideAboutMe.svelte';
 	import ContactAside from '$lib/components/ContactAside/ContactAside.svelte';
+	import welcome from '$lib/images/svelte-welcome.webp';
+	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	import MenuAsidePsychotherapie from '$lib/components/MenuAsidePsychotherapie/MenuAsidePsychotherapie.svelte';
+</script>
 	
-		import welcome from '$lib/images/svelte-welcome.webp';
-		import welcome_fallback from '$lib/images/svelte-welcome.png';
-	</script>
+<svelte:head>
+	<title>Allgemeines - Dr. Bertgen-Giesen</title>
+</svelte:head>
 	
-	<svelte:head>
-		<title>Über mich - Dr. Bertgen-Giesen</title>
-		<meta name="description" content="Svelte demo app" />
-	</svelte:head>
-	
-				<!--- 
-				<picture>
-					<source srcset={welcome} type="image/webp" />
-					<img src={welcome_fallback} alt="Welcome" />
-				</picture>
-	-->
+
 	<div id="container">	
 	
 		<aside id="left">
 			<div class="inside">
-				<MenuAsideAboutMe />
+				<MenuAsidePsychotherapie />
 				<ContactAside />
 			</div>
 		</aside>
@@ -42,3 +34,5 @@
 		</div>
 	
 	</div>
+
+

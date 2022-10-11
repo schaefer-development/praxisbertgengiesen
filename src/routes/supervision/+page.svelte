@@ -1,14 +1,11 @@
 <script>
-	import MenuAsideAboutMe from '$lib/components/MenuAsideAboutMe/MenuAsideAboutMe.svelte';
+	import MenuAsideCoaching from '$lib/components/MenuAsideCoaching/MenuAsideCoaching.svelte';
 	import ContactAside from '$lib/components/ContactAside/ContactAside.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
 </script>
-
-	<svelte:head>
-		<title>Über mich - Dr. Bertgen-Giesen</title>
-		<meta name="description" content="Svelte demo app" />
-	</svelte:head>
+	
+<svelte:head>
+	<title>Supervision - Dr. Bertgen-Giesen</title>
+</svelte:head>
 	
 				<!--- 
 				<picture>
@@ -20,7 +17,7 @@
 	
 		<aside id="left">
 			<div class="inside">
-				<MenuAsideAboutMe />
+				<MenuAsideCoaching />
 				<ContactAside />
 			</div>
 		</aside>
@@ -30,7 +27,7 @@
 				<div class="mod_article first last block" id="lebenslauf">
 					
 <h1>
-	supervision 
+	Supervision 
 
 </h1>
 	
