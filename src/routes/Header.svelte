@@ -117,20 +117,49 @@
 	</div>
 </header>
 
+
+
+
+
 <aside
 	id="drawer"
 	style="opacity:1; z-index:999;"
 	on:click={toggleMenu}
 	class="{open
-		? 'translate-x-0' // translate-x-0
-		: 'translate-x-full'} transform fixed lg:hidden top-0 left-0 w-full h-full overflow-auto ease-in-out transition-all duration-300 "
+		? 'translate-x-0 menuclosed' // translate-x-0
+		: 'translate-x-full menuopen'} transform fixed lg:hidden top-0 left-0 w-full h-full overflow-auto ease-in-out transition-all duration-300 "
 >
 	<!-- styling drawer starts here -->
-	sdfsdf
-	<!-- styling drawer ends here -->
+	<div class="drawer_outer h-screen grid content-center bg-darkblue">
+		<div class="drawer_inner mx-12 text-center">
+			<button
+				class="text-white hover:text-darkblue-lighter focus:ring-0 focus:outline-none focus:text-darkblue ease-in-out transition-all duration-300"
+			>
+		
+				<span class="font-semibold mt-0.5 uppercase tracking-widest inline-block align-middle"
+					>Schließen</span
+				>
+			</button>
+
+	sdflnskdf
+
+			
+		</div>
+	</div>
 </aside>
 
+
 <style>
+.menuopen{
+	border:1px solid blue;
+
+}
+
+.menuclosed{
+	border:1px solid red;
+	
+}
+
 	#header .inside {
 		display: flex;
 		flex-direction: column;
