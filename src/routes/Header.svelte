@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { page } from '$app/stores';
+	export let toggleMenuFull: () => void;
+	export let openMenuFull: boolean;
 	import { base } from '$app/paths';
 
 	let open = false;
@@ -103,11 +104,7 @@
 				<a id="skipNavigation1" class="invisible">&nbsp;</a>
 			</div>
 			<div class="menu_mobil">
-				<button on:click={toggleMenu} class="">
-					<span class="font-semibold mt-0.5 uppercase tracking-widest inline-block align-middle"
-						>Menu</span
-					>
-				</button>
+				<button on:click={toggleMenu} />
 			</div>
 		</nav>
 		<!-- indexer::continue -->
@@ -121,9 +118,7 @@
 		? 'menuopen' //
 		: 'menuclosed'}
 >
-	<div class="inner">
-		<button on:click={toggleMenu} class="close"> close </button>
-	</div>
+	<div class="inside">sdfsdf</div>
 </aside>
 
 <style>
@@ -144,7 +139,13 @@
 	}
 
 	/* ################################### MEDIA QUERY ########################################## */
-	@media screen and (max-width: 1024px) {
+	@media screen and (max-width: 11024px) {
+		#header .inside {
+			display: flex;
+			flex-direction: row;
+			padding: 0 0 0 68px;
+		}
+
 		.menu_default {
 			display: none;
 		}
@@ -161,6 +162,8 @@
 		.menu_mobil button {
 			width: 60px;
 			height: 60px;
+			background: none;
+			border: none;
 			background-image: url('../mobil_menu_hamburger.svg');
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -168,10 +171,10 @@
 
 		#drawer {
 			display: block;
-			z-index: 99999;
-			position: absolute;
 			width: 100%;
 			height: 100vh;
+			display: flex;
+			padding: 15px;
 			background: #fff;
 			transition-property: all;
 			transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -179,11 +182,15 @@
 		}
 
 		#drawer.menuopen {
+			position: fixed;
 			top: 0;
+			z-index: 99999;
 		}
 
 		#drawer.menuclosed {
-			top: -100vh;
+			position: absolute;
+			top: 0; /* -100vh */
+			z-index: 99999;
 		}
 
 		#drawer button.close {
@@ -194,10 +201,9 @@
 			background-repeat: no-repeat;
 		}
 
-		#header .inside {
-			display: flex;
-			flex-direction: row;
-			padding: 0 0 0 68px;
+		#drawer .inside {
+			width: 100%;
+			border: 1px solid red;
 		}
 	}
 </style>

@@ -14,20 +14,10 @@
 			maxZoom: 19
 		}
 	];
-	export let zoom = 2;
-
-	export let coordinates = [
-		[50.71197123500227, 7.109060690503333], // Haussdorffstraße 185, 53129 Bonn
-		[50.579969420507744, 7.2261527559490055] // Deichweg 6, 53424 Remagen
-	];
-
-	//	export let coordinates: LatLngTuple = [
-	//	50.71197123500227, 7.109060690503333 // Haussdorffstraße 185, 53129 Bonn
-	//[50.579969420507744, 7.2261527559490055], // Deichweg 6, 53424 Remagen
-	//];
-
-	export let setView = [50.6461874610481, 7.2211052396729505]; // center of map
-
+	export let zoom = 10.2;
+	export let coordinate1 = [50.71197123500227, 7.109060690503333]; // Haussdorffstraße 185, 53129 Bonn
+	export let coordinate2 = [50.579969420507744, 7.2261527559490055]; // Deichweg 6, 53424 Remagen
+	export let setView = [50.655984700815495, 7.189006506251863]; // center of map
 	export let mapAttributes = {
 		style: 'width: 100%; height: 300px;'
 	};
@@ -37,7 +27,8 @@
 		const icon = L.icon(iconOptions);
 		const map = L.map('map', { scrollWheelZoom: false }).setView(setView, zoom);
 		L.tileLayer.apply(null, layerOptions).addTo(map);
-		L.marker([coordinates[0], coordinates[1]], { icon }).addTo(map);
+		L.marker(coordinate1, { icon }).addTo(map);
+		L.marker(coordinate2, { icon }).addTo(map);
 
 		return () => map && map.remove();
 	});
