@@ -1,6 +1,13 @@
-<script>
+<script context="module" lang="ts">
 	import MenuAsideAboutMe from '$lib/components/MenuAsideAboutMe/MenuAsideAboutMe.svelte';
 	import ContactAside from '$lib/components/ContactAside/ContactAside.svelte';
+
+	import Map from '$lib/components/Map/Map.svelte';
+	const mapAttributes = {
+		class: 'map',
+		style: 'width: 100%; height: 100%; min-height:45vh; max-height:45vh;'
+	};
+	export const prerender = true;
 </script>
 
 <svelte:head>
@@ -13,6 +20,9 @@
 					<img src={welcome_fallback} alt="Welcome" />
 				</picture>
 	-->
+
+<Map {mapAttributes} />
+
 <div id="container">
 	<aside id="left">
 		<div class="inside">

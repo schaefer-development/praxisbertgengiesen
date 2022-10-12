@@ -117,10 +117,6 @@
 	</div>
 </header>
 
-
-
-
-
 <aside
 	id="drawer"
 	style="opacity:1; z-index:999;"
@@ -135,30 +131,24 @@
 			<button
 				class="text-white hover:text-darkblue-lighter focus:ring-0 focus:outline-none focus:text-darkblue ease-in-out transition-all duration-300"
 			>
-		
 				<span class="font-semibold mt-0.5 uppercase tracking-widest inline-block align-middle"
 					>Schließen</span
 				>
 			</button>
 
-	sdflnskdf
-
-			
+			sdflnskdf
 		</div>
 	</div>
 </aside>
 
-
 <style>
-.menuopen{
-	border:1px solid blue;
+	.menuopen {
+		border: 1px solid blue;
+	}
 
-}
-
-.menuclosed{
-	border:1px solid red;
-	
-}
+	.menuclosed {
+		border: 1px solid red;
+	}
 
 	#header .inside {
 		display: flex;

@@ -7965,8 +7965,9 @@ button.close {
 	background-size: cover;
 	background-position: 70% 50%;
 }
-.kontakt #custom_bg {
-	background-image: none;
+
+.default.kontakt {
+	display: none;
 }
 
 /* google maps */
