@@ -103,10 +103,7 @@
 				<a id="skipNavigation1" class="invisible">&nbsp;</a>
 			</div>
 			<div class="menu_mobil">
-				<button
-					on:click={toggleMenu}
-					class="text-white hover:text-darkblue-lighter focus:ring-0 focus:outline-none focus:text-darkblue ease-in-out transition-all duration-300"
-				>
+				<button on:click={toggleMenu} class="">
 					<span class="font-semibold mt-0.5 uppercase tracking-widest inline-block align-middle"
 						>Menu</span
 					>
@@ -119,35 +116,19 @@
 
 <aside
 	id="drawer"
-	style="opacity:1; z-index:999;"
 	on:click={toggleMenu}
-	class="{open
-		? 'translate-x-0 menuclosed' // translate-x-0
-		: 'translate-x-full menuopen'} transform fixed lg:hidden top-0 left-0 w-full h-full overflow-auto ease-in-out transition-all duration-300 "
+	class={open
+		? 'menuopen' //
+		: 'menuclosed'}
 >
-	<!-- styling drawer starts here -->
-	<div class="drawer_outer h-screen grid content-center bg-darkblue">
-		<div class="drawer_inner mx-12 text-center">
-			<button
-				class="text-white hover:text-darkblue-lighter focus:ring-0 focus:outline-none focus:text-darkblue ease-in-out transition-all duration-300"
-			>
-				<span class="font-semibold mt-0.5 uppercase tracking-widest inline-block align-middle"
-					>Schließen</span
-				>
-			</button>
-
-			sdflnskdf
-		</div>
+	<div class="inner">
+		<button on:click={toggleMenu} class="close"> close </button>
 	</div>
 </aside>
 
 <style>
-	.menuopen {
-		border: 1px solid blue;
-	}
-
-	.menuclosed {
-		border: 1px solid red;
+	#drawer {
+		display: none;
 	}
 
 	#header .inside {
@@ -164,12 +145,6 @@
 
 	/* ################################### MEDIA QUERY ########################################## */
 	@media screen and (max-width: 1024px) {
-		#header .inside {
-			display: flex;
-			flex-direction: row;
-			padding: 0 0 0 68px;
-		}
-
 		.menu_default {
 			display: none;
 		}
@@ -186,10 +161,43 @@
 		.menu_mobil button {
 			width: 60px;
 			height: 60px;
-
-			background-image: url('../mobil_menu_closed.svg');
+			background-image: url('../mobil_menu_hamburger.svg');
 			background-position: center center;
 			background-repeat: no-repeat;
+		}
+
+		#drawer {
+			display: block;
+			z-index: 99999;
+			position: absolute;
+			width: 100%;
+			height: 100vh;
+			background: #fff;
+			transition-property: all;
+			transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+			transition-duration: 200ms;
+		}
+
+		#drawer.menuopen {
+			top: 0;
+		}
+
+		#drawer.menuclosed {
+			top: -100vh;
+		}
+
+		#drawer button.close {
+			width: 60px;
+			height: 60px;
+			background-image: url('../mobil_menu_close.svg');
+			background-position: center center;
+			background-repeat: no-repeat;
+		}
+
+		#header .inside {
+			display: flex;
+			flex-direction: row;
+			padding: 0 0 0 68px;
 		}
 	}
 </style>
