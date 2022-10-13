@@ -37,6 +37,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"leaflet": "^1.9.2"
+		"leaflet": "^1.9.2",
+		"postcss-load-config": "^4.0.1"
 	}
 }
