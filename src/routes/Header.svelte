@@ -1,4 +1,5 @@
 <script lang="ts">
+	import DrawerAccordion from '$lib/components/Drawer/DrawerAccordion.svelte';
 	import { base } from '$app/paths';
 
 	let open = false;
@@ -116,7 +117,59 @@
 		? 'menuopen' //
 		: 'menuclosed'}
 >
-	<div class="inside">sdfsdf</div>
+	<div class="inside">Menu schliessen</div>
+
+	<DrawerAccordion id="psychotherapie">
+		<span slot="headline">Psychotherapie</span>
+		<div slot="content">
+			<a href="{base}/" title="Startseite" class="first">Startseite</a>
+			<br />
+			<a href="{base}/allgemeines" title="Allgemeines">Allgemeines</a>
+			<br />
+			<a href="{base}/schwerpunkte" title="Schwerpunkte">Schwerpunkte</a>
+			<br />
+			<a href="{base}/gesetzliche_krankenkassen" title="Gesetzliche Krankenkassen"
+				>Gesetzliche Krankenkassen</a
+			>
+			<br />
+			<a href="{base}/privatkassen" title="Privatkassen">Privatkassen</a>
+			<br />
+
+			<a href="/{base}selbstzahler" title="Selbstzahler">Selbstzahler</a>
+			<br />
+			<a href="{base}/beihilfen" title="Beihilfen" class="last">Beihilfen</a>
+		</div>
+	</DrawerAccordion>
+
+	<DrawerAccordion id="coachings">
+		<span slot="headline">Coaching, Supervision &amp; Beratung</span>
+		<div slot="content">
+			<a href="{base}/cognitive_coaching" title="Cognitive Coaching" class="first"
+				>Cognitive Coaching</a
+			>
+			<br />
+			<a href="{base}/coaching_mit_system" title="Coaching mit System">Coaching mit System</a>
+			<br />
+			<a href="{base}/supervision" title="Supervision">Supervision</a>
+			<br />
+			<a href="{base}/beratung" title="Beratung" class="last">Beratung</a>
+		</div>
+	</DrawerAccordion>
+
+	<DrawerAccordion id="coachings">
+		<span slot="headline">Coaching, Supervision &amp; Beratung</span>
+		<div slot="content">
+			<a href="{base}/lebenslauf" title="Lebenslauf" class="first">Lebenslauf</a>
+			<br />
+			<a href="{base}/qualifikation" title="Qualifikation" class="sibling">Qualifikation</a>
+			<br />
+			<a href="{base}/kontakt" title="Kontakt &amp; Anfahrt" class="sibling"
+				>Kontakt &amp; Anfahrt</a
+			>
+			<br />
+			<a href="{base}/fotogalerie" title="Fotogalerie" class="sibling last">Fotogalerie</a>
+		</div>
+	</DrawerAccordion>
 </aside>
 
 <style>
@@ -172,11 +225,13 @@
 			width: 100%;
 			height: 100vh;
 			display: flex;
+			flex-direction: column;
 			padding: 15px;
 			background: #fff;
 			transition-property: all;
 			transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 			transition-duration: 200ms;
+			background-color: #4495a1;
 		}
 
 		#drawer.menuopen {
