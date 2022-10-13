@@ -102,14 +102,14 @@
 
 				<a id="skipNavigation1" class="invisible">&nbsp;</a>
 			</div>
-			<div class="menu_mobil">
+			<div class="menu_mobil open">
 				<button on:click={toggleMenu} />
 			</div>
 		</nav>
 		<!-- indexer::continue -->
 	</div>
 </header>
-
+<!--
 <aside
 	id="drawer"
 	on:click={toggleMenu}
@@ -117,59 +117,71 @@
 		? 'menuopen' //
 		: 'menuclosed'}
 >
-	<div class="inside">Menu schliessen</div>
-
-	<DrawerAccordion id="psychotherapie">
-		<span slot="headline">Psychotherapie</span>
-		<div slot="content">
-			<a href="{base}/" title="Startseite" class="first">Startseite</a>
-			<br />
-			<a href="{base}/allgemeines" title="Allgemeines">Allgemeines</a>
-			<br />
-			<a href="{base}/schwerpunkte" title="Schwerpunkte">Schwerpunkte</a>
-			<br />
-			<a href="{base}/gesetzliche_krankenkassen" title="Gesetzliche Krankenkassen"
-				>Gesetzliche Krankenkassen</a
-			>
-			<br />
-			<a href="{base}/privatkassen" title="Privatkassen">Privatkassen</a>
-			<br />
-
-			<a href="/{base}selbstzahler" title="Selbstzahler">Selbstzahler</a>
-			<br />
-			<a href="{base}/beihilfen" title="Beihilfen" class="last">Beihilfen</a>
+	-->
+<aside
+	id="drawer"
+	on:click={toggleMenu}
+	class={open
+		? 'menuopen' //
+		: 'menuclosed'}
+>
+	<div class="inside">
+		<div class="menu_mobil close">
+			<button>
+				<div class="icon" />
+				<span>Menu schliessen</span>
+			</button>
 		</div>
-	</DrawerAccordion>
+		<DrawerAccordion id="psychotherapie">
+			<span slot="headline">Psychotherapie</span>
+			<div slot="content">
+				<a href="{base}/" title="Startseite" class="first">Startseite</a>
 
-	<DrawerAccordion id="coachings">
-		<span slot="headline">Coaching, Supervision &amp; Beratung</span>
-		<div slot="content">
-			<a href="{base}/cognitive_coaching" title="Cognitive Coaching" class="first"
-				>Cognitive Coaching</a
-			>
-			<br />
-			<a href="{base}/coaching_mit_system" title="Coaching mit System">Coaching mit System</a>
-			<br />
-			<a href="{base}/supervision" title="Supervision">Supervision</a>
-			<br />
-			<a href="{base}/beratung" title="Beratung" class="last">Beratung</a>
-		</div>
-	</DrawerAccordion>
+				<a href="{base}/allgemeines" title="Allgemeines">Allgemeines</a>
 
-	<DrawerAccordion id="coachings">
-		<span slot="headline">Coaching, Supervision &amp; Beratung</span>
-		<div slot="content">
-			<a href="{base}/lebenslauf" title="Lebenslauf" class="first">Lebenslauf</a>
-			<br />
-			<a href="{base}/qualifikation" title="Qualifikation" class="sibling">Qualifikation</a>
-			<br />
-			<a href="{base}/kontakt" title="Kontakt &amp; Anfahrt" class="sibling"
-				>Kontakt &amp; Anfahrt</a
-			>
-			<br />
-			<a href="{base}/fotogalerie" title="Fotogalerie" class="sibling last">Fotogalerie</a>
-		</div>
-	</DrawerAccordion>
+				<a href="{base}/schwerpunkte" title="Schwerpunkte">Schwerpunkte</a>
+
+				<a href="{base}/gesetzliche_krankenkassen" title="Gesetzliche Krankenkassen"
+					>Gesetzliche Krankenkassen</a
+				>
+
+				<a href="{base}/privatkassen" title="Privatkassen">Privatkassen</a>
+
+				<a href="/{base}selbstzahler" title="Selbstzahler">Selbstzahler</a>
+
+				<a href="{base}/beihilfen" title="Beihilfen" class="last">Beihilfen</a>
+			</div>
+		</DrawerAccordion>
+
+		<DrawerAccordion id="coachings">
+			<span slot="headline">Coaching, Supervision &amp; Beratung</span>
+			<div slot="content">
+				<a href="{base}/cognitive_coaching" title="Cognitive Coaching" class="first"
+					>Cognitive Coaching</a
+				>
+
+				<a href="{base}/coaching_mit_system" title="Coaching mit System">Coaching mit System</a>
+
+				<a href="{base}/supervision" title="Supervision">Supervision</a>
+
+				<a href="{base}/beratung" title="Beratung" class="last">Beratung</a>
+			</div>
+		</DrawerAccordion>
+
+		<DrawerAccordion id="about">
+			<span slot="headline">Über mich</span>
+			<div slot="content">
+				<a href="{base}/lebenslauf" title="Lebenslauf" class="first">Lebenslauf</a>
+
+				<a href="{base}/qualifikation" title="Qualifikation" class="sibling">Qualifikation</a>
+
+				<a href="{base}/kontakt" title="Kontakt &amp; Anfahrt" class="sibling"
+					>Kontakt &amp; Anfahrt</a
+				>
+				<a href="{base}/fotogalerie" title="Fotogalerie" class="sibling last">Fotogalerie</a>
+			</div>
+		</DrawerAccordion>
+	</div>
 </aside>
 
 <style>
@@ -194,7 +206,6 @@
 		#header .inside {
 			display: flex;
 			flex-direction: row;
-			padding: 0 0 0 68px;
 		}
 
 		.menu_default {
@@ -210,7 +221,7 @@
 			justify-content: center;
 		}
 
-		.menu_mobil button {
+		.menu_mobil.open button {
 			width: 60px;
 			height: 60px;
 			background: none;
@@ -218,6 +229,37 @@
 			background-image: url('../mobil_menu_hamburger.svg');
 			background-position: center center;
 			background-repeat: no-repeat;
+		}
+
+		.menu_mobil.close {
+			width: 100%;
+			display: block;
+			border-bottom: 1px solid #ccc;
+			margin-bottom: 20px;
+		}
+
+		.menu_mobil.close button {
+			background: none;
+			border: none;
+			letter-spacing: 0.04em;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.menu_mobil.close button .icon {
+			width: 60px;
+			height: 60px;
+			background-image: url('../mobil_menu_close.svg');
+			background-position: center center;
+			background-repeat: no-repeat;
+		}
+
+		.menu_mobil.close button span {
+			color: #4495a1;
+			font-weight: bold;
+			text-transform: uppercase;
 		}
 
 		#drawer {
@@ -231,7 +273,7 @@
 			transition-property: all;
 			transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 			transition-duration: 200ms;
-			background-color: #4495a1;
+			background-color: #fff;
 		}
 
 		#drawer.menuopen {
@@ -242,13 +284,15 @@
 
 		#drawer.menuclosed {
 			position: absolute;
-			top: 0; /* -100vh */
+			top: -200vh;
 			z-index: 99999;
 		}
 
-		#drawer .inside {
-			width: 100%;
-			border: 1px solid red;
+		#drawer .inside a {
+			color: #4495a1;
+			display: block;
+			padding-top: 7px;
+			padding-bottom: 7px;
 		}
 	}
 </style>
