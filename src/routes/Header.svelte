@@ -1,6 +1,4 @@
 <script lang="ts">
-	export let toggleMenuFull: () => void;
-	export let openMenuFull: boolean;
 	import { base } from '$app/paths';
 
 	let open = false;
@@ -12,7 +10,7 @@
 <header id="header">
 	<div class="inside">
 		<div id="logo">
-			<a href="#" />
+			<a title="Praxis Dr. Bertgen-Giesen" href="{base}/" />
 		</div>
 
 		<!-- indexer::stop -->
@@ -191,14 +189,6 @@
 			position: absolute;
 			top: 0; /* -100vh */
 			z-index: 99999;
-		}
-
-		#drawer button.close {
-			width: 60px;
-			height: 60px;
-			background-image: url('../mobil_menu_close.svg');
-			background-position: center center;
-			background-repeat: no-repeat;
 		}
 
 		#drawer .inside {
