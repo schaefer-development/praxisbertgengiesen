@@ -37,7 +37,9 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@splidejs/svelte-splide": "^0.2.9",
 		"leaflet": "^1.9.2",
-		"postcss-load-config": "^4.0.1"
+		"postcss-load-config": "^4.0.1",
+		"siema": "^1.5.1"
 	}
 }

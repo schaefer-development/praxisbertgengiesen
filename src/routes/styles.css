@@ -9222,7 +9222,7 @@ input#text_field,
 textarea {
 	width: 100% !important;
 }
-/* Buttons */
+/* Buttons 
 #main input[type='submit'],
 #main input[type='reset'],
 #main button {
@@ -9249,6 +9249,8 @@ textarea {
 	background-color: #378390 !important;
 	color: #fff !important;
 }
+
+*/
 #main ul {
 	list-style-type: circle;
 	font-weight: normal;
