@@ -14,13 +14,6 @@
 	<title>Kontakt - Dr. Bertgen-Giesen</title>
 </svelte:head>
 
-<!--- 
-				<picture>
-					<source srcset={welcome} type="image/webp" />
-					<img src={welcome_fallback} alt="Welcome" />
-				</picture>
-	-->
-
 <Map {mapAttributes} />
 
 <div id="container">

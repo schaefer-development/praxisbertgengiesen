@@ -202,7 +202,7 @@
 	}
 
 	/* ################################### MEDIA QUERY ########################################## */
-	@media screen and (max-width: 11024px) {
+	@media screen and (max-width: 1024px) {
 		#header .inside {
 			display: flex;
 			flex-direction: row;

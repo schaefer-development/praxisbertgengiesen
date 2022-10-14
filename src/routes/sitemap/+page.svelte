@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { base } from '$app/paths';
+	import HeroGarten from '$lib/assets/bg_garten.jpg';
 	import MenuAsideAboutMe from '$lib/components/MenuAsideAboutMe/MenuAsideAboutMe.svelte';
 	import ContactAside from '$lib/components/ContactAside/ContactAside.svelte';
 </script>
@@ -8,12 +9,12 @@
 	<title>Sitemap - Dr. Bertgen-Giesen</title>
 </svelte:head>
 
-<!--- 
-				<picture>
-					<source srcset={welcome} type="image/webp" />
-					<img src={welcome_fallback} alt="Welcome" />
-				</picture>
-	-->
+<div class="hero">
+	<div class="inside">
+		<img src={HeroGarten} alt="Praxis Dr. Bertgen-Giesen" />
+	</div>
+</div>
+
 <div id="container">
 	<aside id="left">
 		<div class="inside">

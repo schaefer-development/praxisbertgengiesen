@@ -1,4 +1,5 @@
 <script>
+	import HeroRheinblick from '$lib/assets/bg_rheinblick.jpg';
 	import MenuAsideAboutMe from '$lib/components/MenuAsideAboutMe/MenuAsideAboutMe.svelte';
 	import ContactAside from '$lib/components/ContactAside/ContactAside.svelte';
 </script>
@@ -7,12 +8,12 @@
 	<title>Fotogalerie - Dr. Bertgen-Giesen</title>
 </svelte:head>
 
-<!--- 
-				<picture>
-					<source srcset={welcome} type="image/webp" />
-					<img src={welcome_fallback} alt="Welcome" />
-				</picture>
-	-->
+<div class="hero">
+	<div class="inside">
+		<img src={HeroRheinblick} alt="Praxis Dr. Bertgen-Giesen" />
+	</div>
+</div>
+
 <div id="container">
 	<aside id="left">
 		<div class="inside">
@@ -23,9 +24,12 @@
 
 	<div id="main">
 		<div class="inside">
+			<!--
 			<div class="mod_article first last block" id="fotogalerie">
 				<div class="ce_sliderStart first block" id="remagen" style="margin-bottom:30px;">
 					<h2>Praxis Remagen</h2>
+
+
 
 					<div class="content-slider" data-config="0,300,0,1" style="visibility: visible;">
 						<div class="slider-wrapper" style="width: 2175px;">
@@ -150,7 +154,10 @@
 						<a href="#" class="slider-next">Vorwärts</a>
 					</nav>
 				</div>
+
+
 			</div>
+			-->
 		</div>
 	</div>
 </div>

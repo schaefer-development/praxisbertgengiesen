@@ -7675,7 +7675,7 @@ button.close {
 	width: 100%;
 	height: 220px;
 	display: block;
-	background-image: url('../logo.svg');
+	background-image: url('./../logo.svg');
 	background-size: 40% auto;
 	background-position: 50% 80%;
 	background-repeat: no-repeat;
@@ -7852,6 +7852,36 @@ button.close {
 #nav ul.level_2 li.submenu ul.level_3 li.forward span {
 	padding: 0 10px;
 }
+
+.hero {
+	background-color: #f6f6f6;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+}
+
+.hero .inside {
+	position: relative;
+	width: 100%;
+	max-width: 1150px;
+	margin: auto;
+	display: block;
+	height: 45vh;
+}
+
+span.label_praxis {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	color: #fff;
+	font-family: 'Lora', sans-serif !important;
+	font-weight: 400 !important;
+	font-size: 2.3em;
+	font-style: italic;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+	text-align: right;
+	opacity: 0.9;
+}
+
 .custom {
 	background-color: #f6f6f6;
 	border-bottom: 1px solid #ccc;

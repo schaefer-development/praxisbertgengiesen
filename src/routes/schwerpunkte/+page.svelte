@@ -1,4 +1,5 @@
 <script>
+	import HeroGemaelde from '$lib/assets/bg_gemaelde.jpg';
 	import ContactAside from '$lib/components/ContactAside/ContactAside.svelte';
 	import MenuAsidePsychotherapie from '$lib/components/MenuAsidePsychotherapie/MenuAsidePsychotherapie.svelte';
 </script>
@@ -12,6 +13,12 @@
 					<img src={welcome_fallback} alt="Welcome" />
 				</picture>
 	-->
+
+<div class="hero">
+	<div class="inside">
+		<img src={HeroGemaelde} alt="Praxis Dr. Bertgen-Giesen" />
+	</div>
+</div>
 
 <div id="container">
 	<aside id="left">

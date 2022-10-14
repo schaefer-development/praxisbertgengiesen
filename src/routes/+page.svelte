@@ -3,6 +3,7 @@
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 	import MenuAsidePsychotherapie from '$lib/components/MenuAsidePsychotherapie/MenuAsidePsychotherapie.svelte';
+	import HeroGemaelde from '$lib/assets/bg_gemaelde.jpg';
 	import portrait from '$lib/assets/marion_bertgen-giesen.jpg';
 </script>
 
@@ -39,6 +40,13 @@
 					<img src={welcome_fallback} alt="Welcome" />
 				</picture>
 	-->
+
+<div class="hero">
+	<div class="inside">
+		<img src={HeroGemaelde} alt="Praxis Dr. Bertgen-Giesen" />
+	</div>
+</div>
+
 <div id="container">
 	<aside id="left">
 		<div class="inside">

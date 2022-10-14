@@ -3,11 +3,18 @@
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 	import MenuAsidePsychotherapie from '$lib/components/MenuAsidePsychotherapie/MenuAsidePsychotherapie.svelte';
+	import HeroHaus from '$lib/assets/bg_haus.jpg';
 </script>
 
 <svelte:head>
 	<title>Allgemeines - Dr. Bertgen-Giesen</title>
 </svelte:head>
+
+<div class="hero">
+	<div class="inside">
+		<img src={HeroHaus} alt="Praxis Dr. Bertgen-Giesen" />
+	</div>
+</div>
 
 <div id="container">
 	<aside id="left">

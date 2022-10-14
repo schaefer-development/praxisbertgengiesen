@@ -1,4 +1,5 @@
 <script>
+	import Hero2RoteSessel from '$lib/assets/bg_zweirotesessel.jpg';
 	import MenuAsideCoaching from '$lib/components/MenuAsideCoaching/MenuAsideCoaching.svelte';
 	import ContactAside from '$lib/components/ContactAside/ContactAside.svelte';
 </script>
@@ -6,12 +7,14 @@
 <svelte:head>
 	<title>Cognitive Coaching - Dr. Bertgen-Giesen</title>
 </svelte:head>
-<!--- 
-				<picture>
-					<source srcset={welcome} type="image/webp" />
-					<img src={welcome_fallback} alt="Welcome" />
-				</picture>
-	-->
+
+<div class="hero">
+	<div class="inside">
+		<span class="label_praxis">Praxis Bonn</span>
+		<img src={Hero2RoteSessel} alt="Praxis Dr. Bertgen-Giesen" />
+	</div>
+</div>
+
 <div id="container">
 	<aside id="left">
 		<div class="inside">

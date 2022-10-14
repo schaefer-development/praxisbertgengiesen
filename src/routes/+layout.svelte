@@ -9,6 +9,7 @@
 <div id="wrapper" class="app">
 	<Header />
 
+	<!--
 	<div class="default {$page.url.pathname.replace('/', '')}">
 		<div class="custom">
 			<div id="custom_bg">
@@ -16,7 +17,7 @@
 			</div>
 		</div>
 	</div>
-
+-->
 	<main>
 		<slot />
 	</main>

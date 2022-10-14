@@ -1,4 +1,5 @@
 <script>
+	import HeroRheinblick from '$lib/assets/bg_rheinblick.jpg';
 	import MenuAsideAboutMe from '$lib/components/MenuAsideAboutMe/MenuAsideAboutMe.svelte';
 	import ContactAside from '$lib/components/ContactAside/ContactAside.svelte';
 	import portrait from '$lib/assets/marion_bertgen-giesen.jpg';
@@ -8,12 +9,12 @@
 	<title>Lebenslauf - Dr. Bertgen-Giesen</title>
 </svelte:head>
 
-<!--- 
-				<picture>
-					<source srcset={welcome} type="image/webp" />
-					<img src={welcome_fallback} alt="Welcome" />
-				</picture>
-	-->
+<div class="hero">
+	<div class="inside">
+		<img src={HeroRheinblick} alt="Praxis Dr. Bertgen-Giesen" />
+	</div>
+</div>
+
 <div id="container">
 	<aside id="left">
 		<div class="inside">

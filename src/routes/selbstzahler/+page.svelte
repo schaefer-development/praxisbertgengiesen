@@ -1,4 +1,5 @@
 <script>
+	import Hero2GraueSessel from '$lib/assets/bg_grausesessel.jpg';
 	import ContactAside from '$lib/components/ContactAside/ContactAside.svelte';
 	import MenuAsidePsychotherapie from '$lib/components/MenuAsidePsychotherapie/MenuAsidePsychotherapie.svelte';
 </script>
@@ -7,12 +8,13 @@
 	<title>Selbstzahler - Dr. Bertgen-Giesen</title>
 </svelte:head>
 
-<!--- 
-				<picture>
-					<source srcset={welcome} type="image/webp" />
-					<img src={welcome_fallback} alt="Welcome" />
-				</picture>
-	-->
+<div class="hero">
+	<div class="inside">
+		<span class="label_praxis">Praxis Bonn</span>
+		<img src={Hero2GraueSessel} alt="Praxis Dr. Bertgen-Giesen" />
+	</div>
+</div>
+
 <div id="container">
 	<aside id="left">
 		<div class="inside">
