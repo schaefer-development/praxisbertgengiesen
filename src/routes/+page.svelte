@@ -1,7 +1,5 @@
 <script>
 	import ContactAside from '$lib/components/ContactAside/ContactAside.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
 	import MenuAsidePsychotherapie from '$lib/components/MenuAsidePsychotherapie/MenuAsidePsychotherapie.svelte';
 	import HeroGemaelde from '$lib/assets/bg_gemaelde.jpg';
 	import portrait from '$lib/assets/marion_bertgen-giesen.jpg';
@@ -33,13 +31,6 @@
 		}
 	</style>
 </svelte:head>
-
-<!--- 
-				<picture>
-					<source srcset={welcome} type="image/webp" />
-					<img src={welcome_fallback} alt="Welcome" />
-				</picture>
-	-->
 
 <div class="hero">
 	<div class="inside">

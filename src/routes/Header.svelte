@@ -1,4 +1,10 @@
 <script lang="ts">
+	import Logo from '$lib/components/Logo/Logo.svelte';
+	import LogoMobil from '$lib/components/LogoMobil/LogoMobil.svelte';
+
+	import IconMenuOpen from '$lib/assets/mobil_menu_hamburger.svg';
+	import IconMenuClose from '$lib/assets/mobil_menu_close.svg';
+
 	import DrawerAccordion from '$lib/components/Drawer/DrawerAccordion.svelte';
 	import { base } from '$app/paths';
 
@@ -11,7 +17,14 @@
 <header id="header">
 	<div class="inside">
 		<div id="logo">
-			<a title="Praxis Dr. Bertgen-Giesen" href="{base}/" />
+			<a title="Praxis Dr. Bertgen-Giesen" href="{base}/">
+				<div class="desktop">
+					<Logo />
+				</div>
+				<div class="mobil">
+					<LogoMobil />
+				</div>
+			</a>
 		</div>
 
 		<!-- indexer::stop -->
@@ -103,7 +116,22 @@
 				<a id="skipNavigation1" class="invisible">&nbsp;</a>
 			</div>
 			<div class="menu_mobil open">
-				<button on:click={toggleMenu} />
+				<button on:click={toggleMenu}>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="iconstyle"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+						/>
+					</svg>
+				</button>
 			</div>
 		</nav>
 		<!-- indexer::continue -->
@@ -128,7 +156,17 @@
 	<div class="inside">
 		<div class="menu_mobil close">
 			<button>
-				<div class="icon" />
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+					class="iconstyle"
+				>
+					<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+				</svg>
+
 				<span>Menu schliessen</span>
 			</button>
 		</div>
@@ -194,6 +232,14 @@
 		flex-direction: column;
 	}
 
+	#header .inside #logo .desktop {
+		display: block;
+	}
+
+	#header .inside #logo .mobil {
+		display: none;
+	}
+
 	.menu_default {
 		display: block;
 	}
@@ -202,10 +248,33 @@
 	}
 
 	/* ################################### MEDIA QUERY ########################################## */
+
 	@media screen and (max-width: 1024px) {
 		#header .inside {
 			display: flex;
 			flex-direction: row;
+			max-height: 68px;
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+
+		#header .inside #logo .desktop {
+			display: none;
+		}
+
+		#header .inside #logo .mobil {
+			display: flex;
+			position: relative;
+			width: 75%;
+			align-items: center;
+			justify-content: center;
+			padding: 15%;
+		}
+
+		.iconstyle {
+			width: 30px;
+			height: 30px;
+			color: #4495a1;
 		}
 
 		.menu_default {
@@ -226,9 +295,9 @@
 			height: 60px;
 			background: none;
 			border: none;
-			background-image: url('../mobil_menu_hamburger.svg');
-			background-position: center center;
-			background-repeat: no-repeat;
+			display: flex;
+			align-items: center;
+			justify-content: center;
 		}
 
 		.menu_mobil.close {
@@ -236,6 +305,7 @@
 			display: block;
 			border-bottom: 1px solid #ccc;
 			margin-bottom: 20px;
+			height: 50px;
 		}
 
 		.menu_mobil.close button {
@@ -248,18 +318,11 @@
 			justify-content: center;
 		}
 
-		.menu_mobil.close button .icon {
-			width: 60px;
-			height: 60px;
-			background-image: url('../mobil_menu_close.svg');
-			background-position: center center;
-			background-repeat: no-repeat;
-		}
-
 		.menu_mobil.close button span {
 			color: #4495a1;
 			font-weight: bold;
 			text-transform: uppercase;
+			padding-left: 10px;
 		}
 
 		#drawer {
@@ -293,6 +356,14 @@
 			display: block;
 			padding-top: 7px;
 			padding-bottom: 7px;
+		}
+	}
+
+	/* ################################### MEDIA QUERY ########################################## */
+	@media screen and (max-width: 768px) {
+		#header .inside #logo .mobil {
+			width: 70%;
+			padding: 0%;
 		}
 	}
 </style>

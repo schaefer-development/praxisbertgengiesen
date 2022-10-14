@@ -7,12 +7,6 @@
 <svelte:head>
 	<title>Schwerpunkte - Dr. Bertgen-Giesen</title>
 </svelte:head>
-<!--- 
-				<picture>
-					<source srcset={welcome} type="image/webp" />
-					<img src={welcome_fallback} alt="Welcome" />
-				</picture>
-	-->
 
 <div class="hero">
 	<div class="inside">

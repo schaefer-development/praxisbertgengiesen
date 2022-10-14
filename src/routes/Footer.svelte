@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { page } from '$app/stores';
 	import { base } from '$app/paths';
+	import FooterLogo from '$lib/components/FooterLogo/FooterLogo.svelte';
 </script>
 
 <footer id="footer">
@@ -21,7 +21,9 @@
 				>info@dr-bertgen-giesen.de</a
 			><br />
 		</div>
-		<div class="one_third two" />
+		<div class="one_third two">
+			<FooterLogo />
+		</div>
 
 		<div class="one_third three">
 			<span>Praxis für Beratung, Coaching und Supervision</span>
@@ -59,3 +61,12 @@
 		</p>
 	</div>
 </footer>
+
+<style>
+	/* ################################### MEDIA QUERY ########################################## */
+	@media screen and (max-width: 768px) {
+		.one_third.two {
+			display: none !important;
+		}
+	}
+</style>
