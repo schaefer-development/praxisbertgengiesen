@@ -7861,7 +7861,7 @@ button.close {
 .hero .inside {
 	position: relative;
 	width: 100%;
-	max-width: 1150px;
+	text-align: center;
 	margin: auto;
 	display: block;
 	height: 45vh;
@@ -7869,6 +7869,9 @@ button.close {
 }
 
 .hero .inside img {
+	width: auto;
+	max-width: fit-content;
+	height: 100%;
 }
 
 span.label_praxis {
@@ -8106,300 +8109,6 @@ span.label_praxis {
     To be used with jquery.meanmenu.js by Chris Wharton (http://www.meanthemes.com/plugins/meanmenu/)
 
 ####################################################################### */
-	#header {
-		position: fixed;
-	}
-	#header .mean-bar {
-		position: absolute;
-		top: 0px;
-		right: 0;
-		width: 100%;
-		height: 68.75px;
-		clear: all;
-		z-index: 999;
-		background-color: #fff;
-	}
-	#header.sticky .mean-bar {
-		position: absolute;
-		top: 0;
-		right: 0;
-		width: 100%;
-		height: 68.75px;
-		clear: all;
-		z-index: 999;
-	}
-	.mean-container div.menubutton {
-		position: absolute;
-		width: 68.75px;
-		height: 68.75px;
-		line-height: 55px;
-		top: 0;
-		right: 0;
-		font-size: 35px !important;
-		text-decoration: none;
-		text-align: center;
-		color: #378390 !important;
-		cursor: pointer;
-		outline: none !important;
-		-webkit-transition: all 0s ease;
-		-moz-transition: all 0s ease;
-		-o-transition: all 0s ease;
-		transition: all 0s ease;
-	}
-	.mean-container div.menubutton:before {
-		line-height: 68.75px;
-		content: '';
-		display: block;
-		cursor: pointer;
-		vertical-align: top !important;
-		background-image: url('../mobil_menu_closed.svg');
-		background-size: 40px 35px;
-		background-position: 50% 50%;
-		background-repeat: no-repeat;
-		width: 68.75px;
-		height: 68.75px;
-	}
-	.mean-container a.meanmenu-reveal {
-		/* ausloeserflaeche */
-		position: absolute;
-		width: 68.75px;
-		height: 68.75px;
-		top: 0;
-		right: 0;
-		padding: 0;
-		margin: 0;
-	}
-	.mean-container a.meanmenu-reveal.meanclose {
-		/* close */
-		position: absolute;
-		width: 68.75px;
-		height: 68.75px;
-		line-height: 68.75px;
-		top: 0;
-		right: 0;
-		font-size: 35px !important;
-		color: #378390 !important;
-		cursor: pointer;
-		text-decoration: none;
-		text-align: center;
-		outline: none !important;
-		-webkit-transition: all 0s ease;
-		-moz-transition: all 0s ease;
-		-o-transition: all 0s ease;
-		transition: all 0s ease;
-	}
-	.mean-container a.meanmenu-reveal.meanclose:before {
-		/* close */
-		line-height: 68.75px;
-		content: '';
-		display: block;
-		cursor: pointer;
-		vertical-align: top !important;
-		background-image: url('../mobil_menu_open.svg');
-		background-size: 40px 35px;
-		background-position: 50% 50%;
-		background-repeat: no-repeat;
-		width: 68.75px;
-		height: 68.75px;
-	}
-	.mean-container .mean-nav {
-		float: left;
-		width: 100%;
-		margin-top: 68.75px;
-		/* muss gleicher wert wie ausloeserhoehe sein */
-		background-color: #fff;
-	}
-	.mean-container .mean-nav ul {
-		width: 100%;
-		padding: 0;
-		margin: 0;
-		list-style-type: none;
-		font-size: 1em;
-		text-indent: 0;
-		overflow-y: visible;
-	}
-	.mean-container .mean-nav ul li {
-		position: relative;
-		width: 100%;
-		overflow: hidden;
-		margin: 0 !important;
-		background-color: #fff;
-		line-height: 41.25px;
-		font-family: 'Lora', sans-serif !important;
-		font-weight: 400 !important;
-		color: #333 !important;
-		font-size: 1.1em;
-		text-transform: uppercase;
-		border-top: 1px solid #ccc;
-		letter-spacing: 0.08em;
-	}
-	.mean-container .mean-nav ul li.active {
-		text-indent: 55px;
-		color: #378390 !important;
-	}
-	.mean-container .mean-nav ul li.active:hover {
-		background-color: #fff;
-	}
-	.mean-container .mean-nav ul li.forward {
-		text-indent: 55px;
-	}
-	.mean-container .mean-nav ul li.forward:hover {
-		background-color: #378390;
-	}
-	.mean-container .mean-nav ul li.last {
-		border-bottom: 1px solid #ccc;
-	}
-	.mean-container .mean-nav ul li.submenu:hover {
-		background-color: #378390 !important;
-	}
-	.mean-container .mean-nav ul li.active:hover {
-		background-color: #378390 !important;
-		color: #fff !important;
-	}
-	.mean-container .mean-nav ul li a {
-		text-decoration: none;
-		font-family: 'Lora', sans-serif !important;
-		font-weight: 400 !important;
-		color: #333 !important;
-		width: 100%;
-		display: block;
-		height: 41.25px;
-		line-height: 41.25px;
-		margin: 0;
-		padding: 0;
-		padding-left: 55px;
-		text-align: left;
-		/* ausrichtung der untermenupunkte */
-		text-transform: uppercase;
-		-webkit-transition: all 0 ease !important;
-		-moz-transition: all 0 ease !important;
-		-o-transition: all 0 ease !important;
-		transition: all 0 ease !important;
-		letter-spacing: 0.08em;
-	}
-	.mean-container .mean-nav ul li a:hover {
-		color: #fff !important;
-		background-color: #378390;
-	}
-	.mean-container .mean-nav ul li a.mean-expand {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 55px !important;
-		height: 41.25px;
-		line-height: 41.25px;
-		text-indent: 0 !important;
-		margin: 0;
-		padding: 0;
-		text-align: center;
-		vertical-align: middle;
-		background: none;
-		z-index: 2;
-		color: #333 !important;
-		font-size: 20px !important;
-		font-family: 'Roboto', sans-serif !important;
-		text-decoration: none !important;
-	}
-	.mean-container .mean-nav ul li a.mean-expand:hover {
-		color: #fff;
-		height: 41.25px !important;
-		line-height: 41.25px !important;
-	}
-	.mean-container .mean-nav ul li a.mean-clicked {
-		text-indent: 0 !important;
-		color: #333 !important;
-		height: 41.25px !important;
-		line-height: 41.25px !important;
-	}
-	.mean-container .mean-nav ul li ul.level_2 {
-		/* beginn untermenu-instanz */
-	}
-	.mean-container .mean-nav ul li ul.level_2 li {
-		border: none !important;
-		border-top: 1px solid #ccc !important;
-		height: auto !important;
-		font-size: 14px !important;
-		letter-spacing: 0em;
-		font-family: 'Roboto', sans-serif !important;
-		font-weight: 700;
-		/* normal */
-	}
-	.mean-container .mean-nav ul li ul.level_2 li.active,
-	.mean-container .mean-nav ul li ul.level_2 li.forward {
-		width: 100%;
-		padding: 0;
-		text-indent: 55px;
-		text-transform: none !important;
-		color: #378390 !important;
-		font-family: 'Lora', sans-serif !important;
-		font-weight: 400 !important;
-		/* semi-bold */
-		font-style: italic !important;
-	}
-	.mean-container .mean-nav ul li ul.level_2 li.active:hover,
-	.mean-container .mean-nav ul li ul.level_2 li.forward:hover {
-		color: #fff !important;
-	}
-	.mean-container .mean-nav ul li ul.level_2 li.active span,
-	.mean-container .mean-nav ul li ul.level_2 li.forward span {
-		padding: 0 0 0 5%;
-		font-size: 14px !important;
-	}
-	.mean-container .mean-nav ul li ul.level_2 li.submenu:hover {
-		background-color: #378390 !important;
-	}
-	.mean-container .mean-nav ul li ul.level_2 li a {
-		width: 100%;
-		padding: 0 0 0 5%;
-		text-indent: 55px;
-		visibility: visible;
-		text-transform: none;
-		font-family: 'Roboto', sans-serif !important;
-		font-weight: 700;
-		/* normal */
-		letter-spacing: 0;
-	}
-	.mean-container .mean-nav ul li ul.level_2 li a:hover {
-		color: #fff !important;
-	}
-	.mean-container .mean-nav ul li ul.level_2 li.submenu:hover {
-		background-color: #378390 !important;
-	}
-	.mean-container .mean-nav ul li ul.level_2 li ul.level_3 li.active,
-	.mean-container .mean-nav ul li ul.level_2 li ul.level_3 li.forward {
-		font-size: 1em !important;
-	}
-	.mean-container .mean-nav ul li ul.level_2 li ul.level_3 li.active span,
-	.mean-container .mean-nav ul li ul.level_2 li ul.level_3 li.forward span {
-		padding: 0 0 0 8%;
-		font-size: 1.1em;
-	}
-	.mean-container .mean-nav ul li ul.level_2 li ul.level_3 li a {
-		padding: 0 0 0 8%;
-	}
-	.mean-container .mean-nav .wrapper {
-		width: 100%;
-		padding: 0;
-		margin: 0;
-	}
-	.mean-container .mean-push {
-		float: left;
-		width: 100%;
-		padding: 0;
-		margin: 0;
-		clear: both;
-	}
-	/* Fix for box sizing on Foundation Framework etc. */
-	.mean-container .mean-bar,
-	.mean-container .mean-bar * {
-		-webkit-box-sizing: content-box;
-		-moz-box-sizing: content-box;
-		box-sizing: content-box;
-	}
-	.mean-remove {
-		display: none !important;
-	}
-	/* Ende Mean-Menu */
 }
 /* Ende @media */
 /* ################################### MEDIA QUERY ########################################## */
@@ -9332,9 +9041,6 @@ cite {
 
 /* ################################### MEDIA QUERY ########################################## */
 @media screen and (max-width: 1024px) {
-	.hero .inside {
-		height: 35vh;
-	}
 }
 
 /* ################################### MEDIA QUERY ########################################## */
@@ -9356,10 +9062,6 @@ cite {
 	.submit {
 		font-size: 0.975em;
 		padding: 0.5em 1.45em;
-	}
-
-	.hero .inside {
-		height: 25vh;
 	}
 }
 /* ################################### MEDIA QUERY ########################################## */

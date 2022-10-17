@@ -1,10 +1,6 @@
 <script lang="ts">
 	import Logo from '$lib/components/Logo/Logo.svelte';
 	import LogoMobil from '$lib/components/LogoMobil/LogoMobil.svelte';
-
-	import IconMenuOpen from '$lib/assets/mobil_menu_hamburger.svg';
-	import IconMenuClose from '$lib/assets/mobil_menu_close.svg';
-
 	import DrawerAccordion from '$lib/components/Drawer/DrawerAccordion.svelte';
 	import { base } from '$app/paths';
 
@@ -14,7 +10,7 @@
 	};
 </script>
 
-<header id="header">
+<header id="header" class="relative">
 	<div class="inside">
 		<div id="logo">
 			<a title="Praxis Dr. Bertgen-Giesen" href="{base}/">
@@ -173,50 +169,68 @@
 		<DrawerAccordion id="psychotherapie">
 			<span slot="headline">Psychotherapie</span>
 			<div slot="content">
-				<a href="{base}/" title="Startseite" class="first">Startseite</a>
+				<a href="{base}/" title="Startseite" class="first mobil_link_submenu">Startseite</a>
 
-				<a href="{base}/allgemeines" title="Allgemeines">Allgemeines</a>
+				<a href="{base}/allgemeines" title="Allgemeines" class="mobil_link_submenu">Allgemeines</a>
 
-				<a href="{base}/schwerpunkte" title="Schwerpunkte">Schwerpunkte</a>
-
-				<a href="{base}/gesetzliche_krankenkassen" title="Gesetzliche Krankenkassen"
-					>Gesetzliche Krankenkassen</a
+				<a href="{base}/schwerpunkte" title="Schwerpunkte" class="mobil_link_submenu"
+					>Schwerpunkte</a
 				>
 
-				<a href="{base}/privatkassen" title="Privatkassen">Privatkassen</a>
+				<a
+					href="{base}/gesetzliche_krankenkassen"
+					title="Gesetzliche Krankenkassen"
+					class="mobil_link_submenu">Gesetzliche Krankenkassen</a
+				>
 
-				<a href="/{base}selbstzahler" title="Selbstzahler">Selbstzahler</a>
+				<a href="{base}/privatkassen" title="Privatkassen" class="mobil_link_submenu"
+					>Privatkassen</a
+				>
 
-				<a href="{base}/beihilfen" title="Beihilfen" class="last">Beihilfen</a>
+				<a href="/{base}selbstzahler" title="Selbstzahler" class="mobil_link_submenu"
+					>Selbstzahler</a
+				>
+
+				<a href="{base}/beihilfen" title="Beihilfen" class="last mobil_link_submenu">Beihilfen</a>
 			</div>
 		</DrawerAccordion>
 
 		<DrawerAccordion id="coachings">
 			<span slot="headline">Coaching, Supervision &amp; Beratung</span>
 			<div slot="content">
-				<a href="{base}/cognitive_coaching" title="Cognitive Coaching" class="first"
-					>Cognitive Coaching</a
+				<a
+					href="{base}/cognitive_coaching"
+					title="Cognitive Coaching"
+					class="first mobil_link_submenu">Cognitive Coaching</a
 				>
 
-				<a href="{base}/coaching_mit_system" title="Coaching mit System">Coaching mit System</a>
+				<a href="{base}/coaching_mit_system" title="Coaching mit System" class="mobil_link_submenu"
+					>Coaching mit System</a
+				>
 
-				<a href="{base}/supervision" title="Supervision">Supervision</a>
+				<a href="{base}/supervision" title="Supervision" class="mobil_link_submenu">Supervision</a>
 
-				<a href="{base}/beratung" title="Beratung" class="last">Beratung</a>
+				<a href="{base}/beratung" title="Beratung" class="last mobil_link_submenu">Beratung</a>
 			</div>
 		</DrawerAccordion>
 
 		<DrawerAccordion id="about">
 			<span slot="headline">Über mich</span>
 			<div slot="content">
-				<a href="{base}/lebenslauf" title="Lebenslauf" class="first">Lebenslauf</a>
+				<a href="{base}/lebenslauf" class="first mobil_link_submenu" title="Lebenslauf"
+					>Lebenslauf</a
+				>
 
-				<a href="{base}/qualifikation" title="Qualifikation" class="sibling">Qualifikation</a>
+				<a href="{base}/qualifikation" title="Qualifikation" class="mobil_link_submenu"
+					>Qualifikation</a
+				>
 
-				<a href="{base}/kontakt" title="Kontakt &amp; Anfahrt" class="sibling"
+				<a href="{base}/kontakt" title="Kontakt &amp; Anfahrt" class="mobil_link_submenu"
 					>Kontakt &amp; Anfahrt</a
 				>
-				<a href="{base}/fotogalerie" title="Fotogalerie" class="sibling last">Fotogalerie</a>
+				<a href="{base}/fotogalerie" title="Fotogalerie" class="last mobil_link_submenu"
+					>Fotogalerie</a
+				>
 			</div>
 		</DrawerAccordion>
 	</div>
@@ -351,7 +365,7 @@
 			z-index: 99999;
 		}
 
-		#drawer .inside a {
+		.mobil_link_submenu {
 			color: #4495a1;
 			display: block;
 			padding-top: 7px;
