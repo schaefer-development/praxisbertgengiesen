@@ -30,7 +30,7 @@
 		<!-- indexer::stop -->
 		<nav id="nav" class="mod_navigation block">
 			<div class="menu_default">
-				<a href="/lebenslauf.html#skipNavigation1" class="invisible">Navigation überspringen</a>
+				<a href="{base}/lebenslauf" class="invisible">Navigation überspringen</a>
 
 				<ul class="level_1">
 					<li class="submenu first">

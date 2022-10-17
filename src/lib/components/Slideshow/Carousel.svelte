@@ -137,12 +137,6 @@
 		color: #fff;
 	}
 
-	span.control {
-		width: 40px;
-		height: 40px;
-		border: 1px solid red;
-	}
-
 	button:focus {
 		outline: none;
 	}

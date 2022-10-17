@@ -3,7 +3,7 @@
 </script>
 
 <nav class="mod_navigation block" id="subnav">
-	<a href="/lebenslauf.html#skipNavigation2" class="invisible">Navigation überspringen</a>
+	<a href="/lebenslauf" class="invisible">Navigation überspringen</a>
 	<ul class="level_1">
 		<li class="sibling first">
 			<a href="{base}/" title="Startseite" class="sibling">Startseite</a>
