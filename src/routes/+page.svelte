@@ -12,8 +12,10 @@
 		name="description"
 		content="Willkommen in meiner Praxis für Psychotherapie, Supervision und Coaching mit Standorten in Remagen und Bonn."
 	/>
-	<meta name="keywords" content="" />
-	<meta name="generator" content="Contao Open Source CMS" />
+	<meta
+		name="keywords"
+		content="Psychologe, Psychotherapie, Bonn, Remagen, Dr. Marion Bertgen-Giesen, Bertgen-Giesen, Cognitive Coaching, Coaching mit System, Supervision, Beratung, gesetzliche Krankenkasse, Privatkasse, Selbstzahler"
+	/>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
 	<meta name="HandheldFriendly" content="True" />
 	<meta name="MobileOptimized" content="320" />
