@@ -371,8 +371,8 @@
 		.mobil_link_submenu {
 			color: #4495a1;
 			display: block;
-			padding-top: 7px;
-			padding-bottom: 7px;
+			padding-top: 5px;
+			padding-bottom: 5px;
 		}
 	}
 

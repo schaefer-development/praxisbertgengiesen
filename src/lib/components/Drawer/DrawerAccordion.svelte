@@ -62,13 +62,14 @@
 	.icon {
 		width: 22px;
 		height: 22px;
-		margin-left: 12px;
-		margin-right: 30px;
+		margin-left: 5px;
+		margin-right: 18px;
+		color: #4495a1;
 	}
 
 	.tab-content {
 		max-height: 0;
-		margin-left: 65px;
+		margin-left: 48px;
 		margin-bottom: 15px;
 		height: 100%;
 		overflow: hidden;
@@ -83,12 +84,11 @@
 	}
 
 	.tab input[type='checkbox'] + label .icon {
-		color: #4495a1;
 		-webkit-transition: all 0.25s;
 		-o-transition: all 0.25s;
 		transition: all 0.25s;
 	}
 	.tab input[type='checkbox']:checked + label .icon {
-		color: #000;
+		color: #4495a1;
 	}
 </style>
