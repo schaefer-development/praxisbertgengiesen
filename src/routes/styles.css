@@ -7870,8 +7870,9 @@ button.close {
 
 .hero .inside img {
 	width: auto;
-	max-width: 100%;
+	max-width: max-content;
 	height: 100%;
+
 }
 
 span.label_praxis {
@@ -7892,223 +7893,27 @@ span.label_praxis {
 	background-color: #f6f6f6;
 	border-bottom: 1px solid #ccc;
 }
-.default #custom_bg {
-	position: relative;
-	width: 100%;
-	max-width: 1150px;
-	margin: auto;
-	display: block;
-	height: 45vh;
-	background: url('../bg_gemaelde.jpg');
-	background-size: cover;
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	/*-webkit-box-shadow: inset 0px 0px 23px 0px rgba(0,0,0,0.25);
-  -moz-box-shadow: inset 0px 0px 23px 0px rgba(0,0,0,0.25);
-  box-shadow: inset 0px 0px 23px 0px rgba(0,0,0,0.25);*/
-}
-.allgemeines #custom_bg {
-	background: url('../bg_haus.jpg');
-	background-size: cover;
-	background-position: 70% 50%;
-}
-.lebenslauf #custom_bg,
-.fotogalerie #custom_bg {
-	background: url('../bg_rheinblick.jpg');
-	background-size: cover;
-	background-position: 50% 50%;
-}
-.startseite #custom_bg,
-.qualifikation #custom_bg,
-.schwerpunkte #custom_bg {
-	background: url('../bg_gemaelde.jpg');
-	background-size: cover;
-	background-position: 50% 50%;
-}
-.gesetzliche_krankenkassen #custom_bg,
-.beihilfen #custom_bg {
-	background: url('../bg_dreiorangenesessel.jpg');
-	background-size: cover;
-	background-position: 50% 50%;
-}
-.gesetzliche_krankenkassen #custom_bg:before,
-.beihilfen #custom_bg:before {
-	content: 'Praxis Remagen';
-	width: 100%;
-	height: auto;
-	bottom: 5%;
-	right: 4%;
-	position: absolute;
-	color: #fff;
-	font-family: 'Lora', sans-serif !important;
-	font-weight: 400 !important;
-	font-size: 2.3em;
-	font-style: italic;
-	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-	text-align: right;
-	opacity: 0.9;
-}
-.privatkassen #custom_bg,
-.coaching_mit_system #custom_bg,
-.cognitive_coaching #custom_bg {
-	background: url('../bg_zweirotesessel.jpg');
-	background-size: cover;
-	background-position: 90% 80%;
-}
-.privatkassen #custom_bg:before,
-.coaching_mit_system #custom_bg:before,
-.cognitive_coaching #custom_bg:before {
-	content: 'Praxis Bonn';
-	width: 100%;
-	height: auto;
-	bottom: 5%;
-	right: 4%;
-	position: absolute;
-	color: #fff;
-	font-family: 'Lora', sans-serif !important;
-	font-weight: 400 !important;
-	font-size: 2.3em;
-	font-style: italic;
-	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-	text-align: right;
-	opacity: 0.9;
-}
-.supervision #custom_bg,
-.selbstzahler #custom_bg,
-.beratung #custom_bg {
-	background: url('../bg_grausesessel.jpg');
-	background-size: cover;
-	background-position: 90% 80%;
-}
-.supervision #custom_bg:before,
-.selbstzahler #custom_bg:before,
-.beratung #custom_bg:before {
-	content: 'Praxis Bonn';
-	width: 100%;
-	height: auto;
-	bottom: 5%;
-	right: 4%;
-	position: absolute;
-	color: #fff;
-	font-family: 'Lora', sans-serif !important;
-	font-weight: 400 !important;
-	font-size: 2.3em;
-	font-style: italic;
-	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-	text-align: right;
-	opacity: 0.9;
-}
-.impressum #custom_bg,
-.sitemap #custom_bg,
-.gesendet #custom_bg {
-	background: url('../bg_garten.jpg');
-	background-size: cover;
-	background-position: 70% 50%;
-}
 
 .default.kontakt {
 	display: none;
 }
-
-/* google maps */
-.ce_dlh_googlemaps {
-	position: relative;
-	padding-bottom: 45vh;
-	height: 0;
-	overflow: hidden;
-	width: 100% !important;
-	z-index: 999;
-}
-#dlh_googlemap_1 {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100% !important;
-	height: 100%;
-	z-index: 999;
-	padding: 0em !important;
-}
-.gm-style-iw {
-	/* infoblase */
-	font-size: 1em;
-}
-.gm-style-iw div p {
-	font-family: 'Roboto', sans-serif !important;
-	font-size: 14px;
-	line-height: 20px;
-	text-indent: 0;
-	margin-bottom: 0 !important;
-	color: #444;
-	font-weight: 400;
-}
-.gm-style-iw div .routinglink {
-	font-size: 15px;
-	color: #444;
-	font-weight: 400;
-}
-.gm-style-iw div .routinglink a {
-	color: #444 !important;
-	font-weight: 400;
-	text-decoration: none !important;
-}
-.gm-style-iw div .routinglink form input.text {
-	height: 40px;
-	background-color: #fff;
-	border: 1px solid #ccc;
-}
-.gm-style-iw div .routinglink form input.text:focus {
-	background-color: #fff;
-	border: 1px solid #378390 !important;
-}
-.gm-style-iw div .routinglink form input.submit {
-	background-color: #fff;
-	border: 2px solid #378390 !important;
-	color: #378390;
-	border: none;
-	height: 40px;
-	width: 40px;
-	font-weight: bold;
-	text-transform: uppercase;
-	text-align: center;
-	margin-left: 10px;
-	border-radius: 00%;
-	-webkit-transition: all 0.1s ease-in-out;
-	-moz-transition: all 0.1s ease-in-out;
-	-o-transition: all 0.1s ease-in-out;
-	transition: all 0.1s ease-in-out;
-}
-.gm-style-iw div .routinglink form input.submit:hover {
-	background-color: #378390;
-	color: #fff;
-	border: 2px solid #378390 !important;
-}
-/* /google maps */
 
 /* ################################### MEDIA QUERY ########################################## */
 @media screen and (max-width: 1024px) {
 	#header .inside {
 		height: 68.75px;
 	}
-	#header .inside .mean-bar {
-		z-index: 999;
-	}
-	#header .inside.sticky .mean-bar {
-		z-index: 999;
-	}
 	#header .inside #logo {
 		height: 68.75px;
+		padding-left: 68.75px;
 	}
 	#header .inside #logo a {
 		height: 68.75px;
 	}
-	/*! #######################################################################
 
-    MeanMenu 2.0.6
-    --------
-
-    To be used with jquery.meanmenu.js by Chris Wharton (http://www.meanthemes.com/plugins/meanmenu/)
-
-####################################################################### */
+	#header .inside nav {
+		height: 68.75px;
+	}
 }
 /* Ende @media */
 /* ################################### MEDIA QUERY ########################################## */

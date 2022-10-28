@@ -280,9 +280,12 @@
 			display: flex;
 			position: relative;
 			width: 75%;
+			min-width: 280px;
+			max-width: 420px;
 			align-items: center;
 			justify-content: center;
-			padding: 15%;
+			padding-left: 15px;
+			padding-right: 15px;
 		}
 
 		.iconstyle {
@@ -375,9 +378,9 @@
 
 	/* ################################### MEDIA QUERY ########################################## */
 	@media screen and (max-width: 768px) {
-		#header .inside #logo .mobil {
+		/*#header .inside #logo .mobil {
 			width: 70%;
 			padding: 0%;
-		}
+		}*/
 	}
 </style>
