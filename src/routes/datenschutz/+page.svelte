@@ -549,7 +549,7 @@
 						Verantwortliche im Sinne der Datenschutz-Grundverordnung und anderer nationaler
 						Datenschutzgesetze der Mitgliedsstaaten sowie sonstiger datenschutzrechtlicher
 						Bestimmungen ist die: <br />Praxis Dr. Bertgen-Giesen <br />Deichweg 6<br />53424
-						Remagen<br />Deutschland<br />Telefon: 02642 - 210 872<br />E-Mail:
+						Remagen<br />Deutschland<br />Telefon: 02642 . 210 872<br />E-Mail:
 						info@dr-bertgen-giesen.de <br />Website: www.dr-bertgen-giesen.de
 					</p>
 					<p>

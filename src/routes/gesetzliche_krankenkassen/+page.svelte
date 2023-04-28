@@ -28,7 +28,7 @@
 			<div class="mod_article first last block" id="gesetzliche_krankenkassen">
 				<div class="ce_text col-xs-12 col-sm-12 col-md-12 first last block">
 					<h1>Gesetzliche Krankenkassen</h1>
-
+					<p>Ansprechpartnerin Frau Dr. Anna Katzer, Tel. 0177 . 600 45 56</p>
 					<p>
 						Wenn Sie bei einer gesetzlichen Krankenkasse versichert sind, genügt es, die
 						Krankenversichertenkarte mitzubringen. Seit Abschaffung der Praxisgebühr ist eine
@@ -39,8 +39,8 @@
 					</p>
 					<p>Nach Vorlage der Chipkarte wird diese in unserem Abrechnungsprogramm gespeichert.</p>
 					<p>
-						Bei den gesetzlichen Krankenkassen können wir zunnächst bis zu fünf Probesitzungen
-						(probatorische Sitzungen) vereinbaren. In diesen Sitzungen können Sie Ihr Anliegen, Ihre
+						Bei den gesetzlichen Krankenkassen können wir zunnächst 3 Sprechstunden und 2
+						probatorische Sitzungen vereinbaren. In diesen Sitzungen können Sie Ihr Anliegen, Ihre
 						Beschwerden, Ihre Erwartungen und Ihre Befürchtungen bzgl. der Psychotherapie mit mir
 						besprechen und Sie lernen mich und meine Vorgehensweise kennen.
 					</p>

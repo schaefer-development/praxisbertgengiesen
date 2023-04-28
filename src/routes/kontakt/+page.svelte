@@ -58,7 +58,9 @@
 				<div class="ce_text col-xs-12 col-sm-6 col-md-6 last block" style="margin-bottom:20px;">
 					<h3>Beratung, Coaching und Supervision</h3>
 					<p>
-						Haussdorffstraße 185<br /> 53129 Bonn<br /> Telefon:
+						Gregor-Mendel-Straße 26<br />
+						53115 Bonn<br />
+						Telefon:
 						<a
 							title="Diese Telefonnummer mit Ihrem Standard VoIP-Programm anrufen"
 							href="callto:00492289107648">0228 . 910 76 48</a
@@ -70,13 +72,26 @@
 					</p>
 					<p>&nbsp;</p>
 					<p>
-						<strong>Anfahrt mit dem dem Auto</strong><br />Über die Reuterstraße bis zum Abzweig
-						Hausdorffstraße, dort noch etwa 2km geradeaus. Parkmöglichkeiten (teilweise
-						kostenpflichtig oder mit Parkscheibe) sind in der Nähe vorhanden. &nbsp;
+						<strong>Anfahrt mit dem Auto </strong><br />
+						Autobahnabfahrt Bonn Poppelsdorf, auf Reuterstraße bleiben bis Argelanderstraße, dort rechts
+						abbiegen, an der Ampel links abbiegen Lotharstraße, weiter geradeaus ca 400m, dann rechts
+						abbiegen Rosenburgweg, nach 150m scharf rechts abbiegen in die Gregor-Mendel-Straße.
 					</p>
+
 					<p>
-						<br /><strong>Anreise mit dem ÖPNV</strong><br />Sie finden uns gleich an der
-						Haltestelle Pützstraße der Straßenbahnlinien 61 und 62.
+						<strong>Anfahrt mit dem Auto von Süden</strong><br />
+						Auf B9 bleiben, über Reuterbrücke geradeaus, an der Tankstelle links abbiegen in Hausdorffstraße,
+						an der 2. Ampel rechts abbiegen in Eduard Otto Straße, im Kreisverkehr dritte Ausfahrt Graf
+						Stauffenbergstraße, an der Ampel links in die Lotharstraße, an der nächsten Kreuzung rechts
+						in den Rosenburgweg, nach 150 m scharf rechts in die Gregor-Mendel-Straße.
+					</p>
+					<p>Parkmöglichkeiten in der Straße sind vorhanden.</p>
+					<p>
+						<strong>Anfahrt mit ÖPNV</strong><br />
+						1. Ab Bonn HBF: Buslinie 600 Richtung Venusberg/ Unikliniken bis Gregor-Mendel-Straße, dann
+						2 Minuten Fußweg <br />
+						2. Ab Bonn HBF. Straßenbahnlinie 61 oder 62 Richtung Dottendorf, bis Eduard Otto Straße,
+						dann 10 Minuten Fußweg.
 					</p>
 				</div>
 			</div>

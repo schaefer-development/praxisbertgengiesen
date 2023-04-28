@@ -28,9 +28,8 @@
 		<div class="one_third three">
 			<span>Praxis für Beratung, Coaching und Supervision</span>
 
-			Hausdorffstraße 185<br />
-			53129 Bonn<br />
-			Telefon:
+			Gregor-Mendel-Straße 26<br />
+			53115 Bonn Telefon:<br />
 			<a
 				href="callto:00492289107648"
 				title="Diese Telefonnummer mit Ihrem Standard VoIP-Programm anrufen">0228 . 910 76 48</a

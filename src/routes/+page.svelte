@@ -59,8 +59,8 @@
 						Anna Katzer geführt.
 					</p>
 					<p>
-						Auch in der Coronakrise bleibt die Praxis geöffnet. Wir bieten nach Absprache
-						Videosprechstunden und Telefontermine an.
+						Am 6. April 2023 hat Frau Dr. Anna Katzer meine Kassenzulassung übernommen. Sie ist nun
+						die Ansprechpartnerin für Gesetzlich Versicherte. Tel. Frau Dr. Katzer 0177 . 600 45 56.
 					</p>
 				</div>
 
@@ -78,14 +78,14 @@
 
 				<div class="ce_text col-xs-12 col-sm-12 col-md-12 last block">
 					<p>
-						Mein therapeutisches Angebot richtet sich an Erwachsene, die bei einer gesetzlichen
+						Unser therapeutisches Angebot richtet sich an Erwachsene, die bei einer gesetzlichen
 						Krankenkasse, Beihilfestelle oder Privatkasse versichert sind.
+						<br />Frau Dr. Anna Katzer ist die Ansprechpartnerin für Gesetzlich Versicherte.
 					</p>
-					<p>Die Praxis hat eine Kassenzulassung.</p>
-					<p>Als Wahlleistungen biete ich darüber hinaus Coaching oder Beratung an.</p>
+
 					<p>
-						Zusätzlich arbeite ich als Supervisorin für ärztlich oder psychotherapeutisch tätige
-						Kollegen.
+						Als Wahlleistungen biete ich darüber hinaus Coaching oder Beratung an.<br />
+						Zusätzlich arbeite ich als Supervisorin für ärztlich oder psychotherapeutisch tätige Kollegen.
 					</p>
 					<p>Sie finden mich an zwei Standorten: in Remagen und in Bonn.</p>
 				</div>
