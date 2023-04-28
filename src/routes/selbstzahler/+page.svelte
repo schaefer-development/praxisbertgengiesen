@@ -31,10 +31,8 @@
 
 					<p>
 						Wenn Sie sich entschließen, die Behandlung nicht mit Ihrer Krankenkasse abzurechnen,
-						stelle ich Ihnen eine gesonderte Rechnung aus.<br /> Meine Rechnungen werden nach der
-						Gebührenordnung für Ärzte GOÄ bzw. nach der Gebührenordnung für Psychotherapeuten GOP
-						ausgestellt. <br />Die Rechnungsstellung erfolgt meistens einmal im Quartal, also etwa
-						alle drei Monate.
+						stelle ich Ihnen eine gesonderte Rechnung aus.<br /> Meine Rechnungen werden nach der Gebührenordnung
+						für Ärzte GOÄ bzw. nach der Gebührenordnung für Psychotherapeuten GOP ausgestellt.
 					</p>
 				</div>
 			</div>

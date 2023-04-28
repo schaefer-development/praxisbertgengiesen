@@ -58,7 +58,7 @@
 						meisten gesetzlichen Krankenkassen nur wenige Werktage. Danach erhalte ich einen
 						schriftlichen Bescheid von der Kasse mit der Zusage, die Kosten für die Behandlung zu
 						übernehmen. Die meisten Krankenkassen teilen ihren Versicherten ebenfalls mit, dass die
-						Behandlung bewilligt wurde. Genehmigt werden dann erst einmal 25 Sitzungen. Es ist
+						Behandlung bewilligt wurde. Genehmigt werden dann erst einmal 12 Sitzungen. Es ist
 						möglich, später noch weitere Sitzungen zu beantragen. Maximal sind 80 Sitzungen möglich.
 					</p>
 				</div>

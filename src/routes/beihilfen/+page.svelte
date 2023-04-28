@@ -48,8 +48,7 @@
 						Die Bearbeitung kann einige Wochen dauern, in der Regel erfolgt jedoch eine vollständige
 						Kostenübernahme. Dann kann mit der Behandlung begonnen werden. Meine Rechnungen werden
 						nach der Gebührenordnung für Ärzte GOÄ bzw. nach der Gebührenordnung für
-						Psychotherapeuten GOP ausgestellt. <br />Die Rechnungsstellung erfolgt meistens einmal
-						im Quartal, also etwa alle drei Monate.
+						Psychotherapeuten GOP ausgestellt.
 					</p>
 				</div>
 			</div>

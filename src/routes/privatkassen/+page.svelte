@@ -47,8 +47,7 @@
 						maximal 80 Sitzungen möglich. Gegebenenfalls müssen unterschiedliche Sitzungskontingente
 						immer wieder neu beantragt werden. Das mache ich dann für Sie. <br /><br />Meine
 						Rechnungen werden nach der Gebührenordnung für Ärzte GOÄ bzw. nach der Gebührenordnung
-						für Psychotherapeuten GOP ausgestellt. Die Rechnungsstellung erfolgt meistens einmal im
-						Quartal, also etwa alle drei Monate.
+						für Psychotherapeuten GOP ausgestellt.
 					</p>
 				</div>
 			</div>
