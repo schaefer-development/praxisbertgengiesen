@@ -55,7 +55,7 @@
 			<span>
 				Sprechzeiten Frau Dr. Bertgen-Giesen: Donnerstag 11:00 - 12:00 Uhr
 				<br />
-				Sprechzeiten Frau Dr. Katzer: Dienstag 18:30 - 19:30 Uhr</span
+				Sprechzeiten Frau Dr. Katzer: Mittwoch 17:00 - 18:40 Uhr</span
 			>
 		</p>
 	</div>
