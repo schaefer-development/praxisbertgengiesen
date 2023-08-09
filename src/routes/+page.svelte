@@ -51,19 +51,6 @@
 	<div id="main">
 		<div class="inside">
 			<div class="mod_article first last block" id="startseite">
-				<div class="ce_text col-xs-12 col-sm-12 col-md-12 first block">
-					<h1>Hinweis</h1>
-
-					<p>
-						Seit 1. Januar 2022 wird die Praxis von Frau Dr. Bertgen-Giesen gemeinsam mit Frau Dr.
-						Anna Katzer geführt.
-					</p>
-					<p>
-						Am 6. April 2023 hat Frau Dr. Anna Katzer meine Kassenzulassung übernommen. Sie ist nun
-						die Ansprechpartnerin für Gesetzlich Versicherte. Tel. Frau Dr. Katzer 0177 . 600 45 56.
-					</p>
-				</div>
-
 				<h1 class="ce_headline col-xs-12 col-sm-12 col-md-12">
 					Herzlich Willkommen in meiner Praxis für Psychotherapie
 				</h1>

@@ -28,7 +28,10 @@
 			<div class="mod_article first last block" id="gesetzliche_krankenkassen">
 				<div class="ce_text col-xs-12 col-sm-12 col-md-12 first last block">
 					<h1>Gesetzliche Krankenkassen</h1>
-					<p>Ansprechpartnerin Frau Dr. Anna Katzer, Tel. 0177 . 600 45 56</p>
+					<p>
+						Ansprechpartner für Gesetzlich Versicherte sind Frau Meike Arts 0177 . 387 39 22 und
+						Frau Dr. Anna Katzer 0177 . 600 45 56.
+					</p>
 					<p>
 						Wenn Sie bei einer gesetzlichen Krankenkasse versichert sind, genügt es, die
 						Krankenversichertenkarte mitzubringen. Seit Abschaffung der Praxisgebühr ist eine

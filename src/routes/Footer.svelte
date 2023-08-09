@@ -50,14 +50,14 @@
 			<a href="{base}/impressum" title="Impressum">Impressum</a></span
 		>
 
-		<p>
+		<!--<p>
 			<br />
 			<span>
 				Sprechzeiten Frau Dr. Bertgen-Giesen: Donnerstag 11:00 - 12:00 Uhr
 				<br />
 				Sprechzeiten Frau Dr. Katzer: Mittwoch 17:00 - 18:40 Uhr</span
 			>
-		</p>
+		</p>-->
 	</div>
 </footer>
 

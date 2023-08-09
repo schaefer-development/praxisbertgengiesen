@@ -1,7 +1,7 @@
 <div id="contact_aside_left">
-	Telefonische Erreichbarkeit:<br />
+	<!--Telefonische Erreichbarkeit:<br />
 	Mittwoch: 17:30 - 21:00 Uhr<br />
-	Eventuelle Änderungen entnehmen Sie bitte der telefonischen Ansage.<br /><br />
+	Eventuelle Änderungen entnehmen Sie bitte der telefonischen Ansage.<br /><br />-->
 	Telefon Praxis Remagen<br />
 	<a
 		href="callto:00492642210872"
