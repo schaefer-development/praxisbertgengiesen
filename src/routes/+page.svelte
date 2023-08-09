@@ -67,7 +67,7 @@
 					<p>
 						Unser therapeutisches Angebot richtet sich an Erwachsene, die bei einer gesetzlichen
 						Krankenkasse, Beihilfestelle oder Privatkasse versichert sind.
-						<br />Meike Arts und Dr. Anna Katzer sind die Ansprechpartnerinnen für Gesetzlich Versicherte.
+						<br />Meike Arts, Psychologische Psychotherapeutin und Dr. phil. Anna Katzer sind die Ansprechpartnerinnen für Gesetzlich Versicherte. 
 					</p>
 
 					<p>
