@@ -141,7 +141,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 					<p>Verantwortlicher im Sinne der Datenschutz-Grundverordnung, sonstiger in den
 						Mitgliedstaaten der Europ\xE4ischen Union geltenden Datenschutzgesetze und anderer
 						Bestimmungen mit datenschutzrechtlichem Charakter ist die:<br>Praxis Dr.
-						Bertgen-Giesen <br>Deichweg 6<br>53424 Remagen<br>Deutschland<br>Telefon:
+						Bertgen-Giesen <br>Seelenstraße 8<br>53424 Remagen<br>Deutschland<br>Telefon:
 						02642-210 872<br>E-Mail: info@dr-bertgen-giesen.de <br>Website:
 						www.dr-bertgen-giesen.de
 					</p>

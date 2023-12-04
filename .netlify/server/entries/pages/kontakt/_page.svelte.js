@@ -75,7 +75,7 @@ ${validate_component(Map, 'Map').$$render($$result, { mapAttributes }, {}, {})}
 					<p>Praxiszeiten: Werktags von 9:00 bis 18:00 Uhr.</p></div>
 
 				<div class="${'ce_text col-xs-12 col-sm-6 col-md-6 block'}"><h3>Praxis Dr. Bertgen-Giesen</h3>
-					<p>Deichweg 6<br> 53424 Remagen<br> Telefon:
+					<p>Seelenstraße 8<br> 53424 Remagen<br> Telefon:
 						<a title="${'Diese Telefonnummer mit Ihrem Standard VoIP-Programm anrufen'}" href="${'callto:00492642210872'}">02642 . 210 872</a><br> E-Mail:
 						<a title="${'Eine E-Mail an info@dr-bertgen-giesen.de mit Ihrem Standardprogramm schreiben'}" href="${'mailto:info@dr-bertgen-giesen.de'}">info@dr-bertgen-giesen.de</a></p>
 					<p>\xA0</p>

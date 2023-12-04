@@ -228,7 +228,7 @@ const css = {
 const Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 	$$result.css.add(css);
 	return `<footer id="${'footer'}"><div class="${'inside'}"><div class="${'one_third one'}"><span>Praxis Dr. Bertgen-Giesen</span>
-			Deichweg 6<br>
+	Seelenstraße 8<br>
 			53424 Remagen<br>
 			Telefon:
 			<a href="${'callto:00492642210872'}" title="${'Diese Telefonnummer mit Ihrem Standard VoIP-Programm anrufen'}">02642 . 210 872</a><br>

@@ -30,8 +30,8 @@
 
 					<h3>Pflichtangaben gemäß §5 TMG</h3>
 					<p>
-						Name und Sitz der Praxis: Praxis Dr. phil. Marion Bertgen-Giesen<br />Deichweg 6<br
-						/>53424 Remagen<br />Telefon: 02642 . 210 872
+						Name und Sitz der Praxis: Praxis Dr. phil. Marion Bertgen-Giesen<br />Seelenstrasse 8<br
+						/>53424 Remagen
 					</p>
 					<p>
 						<strong

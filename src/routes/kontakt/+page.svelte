@@ -32,28 +32,6 @@
 					<p>Praxiszeiten: Werktags von 9:00 bis 18:00 Uhr.</p>
 				</div>
 
-				<!--	<div class="ce_text col-xs-12 col-sm-6 col-md-6 block">
-					<h3>Praxis Dr. Bertgen-Giesen</h3>
-					<p>
-						Deichweg 6<br /> 53424 Remagen<br /> Telefon:
-						<a
-							title="Diese Telefonnummer mit Ihrem Standard VoIP-Programm anrufen"
-							href="callto:00492642210872">02642 . 210 872</a
-						><br /> E-Mail:
-						<a
-							title="Eine E-Mail an info@dr-bertgen-giesen.de mit Ihrem Standardprogramm schreiben"
-							href="mailto:info@dr-bertgen-giesen.de">info@dr-bertgen-giesen.de</a
-						>
-					</p>
-					<p>&nbsp;</p>
-					<p>
-						<strong>Anfahrt mit dem Auto</strong><br />Über die B9, Abzweigung Drusus-Straße.
-						Zahlreiche Parkmöglichkeiten sind in fußläufiger Nähe vorhanden. <br /><br /><strong
-							>Anreise mit dem Zug</strong
-						><br />Sie finden uns nur wenige Gehminuten vom Bahnhof Remagen entfernt. Der Deichweg
-						ist die Verlängerung der Rheinpromenade.
-					</p>
-				</div>-->
 				<div class="ce_text col-xs-12 col-sm-6 col-md-6 block">
 					<h3>Praxis Dr. Bertgen-Giesen</h3>
 					<p>
