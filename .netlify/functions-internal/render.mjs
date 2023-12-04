@@ -6,12 +6,12 @@ export const handler = init({
 	mimeTypes: { '.png': 'image/png' },
 	_: {
 		entry: {
-			file: '_app/immutable/start-cb8a97a7.js',
+			file: '_app/immutable/start-6481c681.js',
 			imports: [
-				'_app/immutable/start-cb8a97a7.js',
+				'_app/immutable/start-6481c681.js',
 				'_app/immutable/chunks/preload-helper-aa6bc0ce.js',
 				'_app/immutable/chunks/paths-18c1a41e.js',
-				'_app/immutable/chunks/singletons-cb0be988.js'
+				'_app/immutable/chunks/singletons-2d655517.js'
 			],
 			stylesheets: []
 		},

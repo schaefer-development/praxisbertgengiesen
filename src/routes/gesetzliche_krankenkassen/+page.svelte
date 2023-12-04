@@ -1,4 +1,5 @@
 <script>
+	import HeroGemaelde from '$lib/assets/bg_gemaelde.jpg';
 	import Hero3OrangeneSessel from '$lib/assets/bg_dreiorangenesessel.jpg';
 	import ContactAside from '$lib/components/ContactAside/ContactAside.svelte';
 	import MenuAsidePsychotherapie from '$lib/components/MenuAsidePsychotherapie/MenuAsidePsychotherapie.svelte';
@@ -8,10 +9,16 @@
 	<title>Gesetzliche Krankenkassen - Dr. Bertgen-Giesen</title>
 </svelte:head>
 
-<div class="hero">
+<!--<div class="hero">
 	<div class="inside">
 		<span class="label_praxis">Praxis Remagen</span>
 		<img src={Hero3OrangeneSessel} alt="Praxis Dr. Bertgen-Giesen" />
+	</div>
+</div>-->
+
+<div class="hero">
+	<div class="inside">
+		<img src={HeroGemaelde} alt="Praxis Dr. Bertgen-Giesen" />
 	</div>
 </div>
 

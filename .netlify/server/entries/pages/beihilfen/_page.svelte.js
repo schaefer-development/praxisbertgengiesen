@@ -41,8 +41,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 						Die Bearbeitung kann einige Wochen dauern, in der Regel erfolgt jedoch eine vollst\xE4ndige
 						Kosten\xFCbernahme. Dann kann mit der Behandlung begonnen werden. Meine Rechnungen werden
 						nach der Geb\xFChrenordnung f\xFCr \xC4rzte GO\xC4 bzw. nach der Geb\xFChrenordnung f\xFCr
-						Psychotherapeuten GOP ausgestellt. <br>Die Rechnungsstellung erfolgt meistens einmal
-						im Quartal, also etwa alle drei Monate.
+						Psychotherapeuten GOP ausgestellt.
 					</p></div></div></div></div></div>`;
 });
 export { Page as default };
