@@ -54,7 +54,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 						meisten gesetzlichen Krankenkassen nur wenige Werktage. Danach erhalte ich einen
 						schriftlichen Bescheid von der Kasse mit der Zusage, die Kosten f\xFCr die Behandlung zu
 						\xFCbernehmen. Die meisten Krankenkassen teilen ihren Versicherten ebenfalls mit, dass die
-						Behandlung bewilligt wurde. Genehmigt werden dann erst einmal 25 Sitzungen. Es ist
+						Behandlung bewilligt wurde. Genehmigt werden dann erst einmal 12 Sitzungen. Es ist
 						m\xF6glich, sp\xE4ter noch weitere Sitzungen zu beantragen. Maximal sind 80 Sitzungen m\xF6glich.
 					</p></div></div></div></div></div>`;
 });

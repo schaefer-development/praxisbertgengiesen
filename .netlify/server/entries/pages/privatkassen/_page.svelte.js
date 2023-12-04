@@ -41,8 +41,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 						maximal 80 Sitzungen m\xF6glich. Gegebenenfalls m\xFCssen unterschiedliche Sitzungskontingente
 						immer wieder neu beantragt werden. Das mache ich dann f\xFCr Sie. <br><br>Meine
 						Rechnungen werden nach der Geb\xFChrenordnung f\xFCr \xC4rzte GO\xC4 bzw. nach der Geb\xFChrenordnung
-						f\xFCr Psychotherapeuten GOP ausgestellt. Die Rechnungsstellung erfolgt meistens einmal im
-						Quartal, also etwa alle drei Monate.
+						f\xFCr Psychotherapeuten GOP ausgestellt.
 					</p></div></div></div></div></div>`;
 });
 export { Page as default };

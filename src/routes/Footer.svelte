@@ -5,42 +5,34 @@
 
 <footer id="footer">
 	<div class="inside">
-		<div class="one_third one">
-			<span>Praxis Dr. Bertgen-Giesen</span>
-			Deichweg 6<br />
-			53424 Remagen<br />
-			Telefon:
-			<a
-				href="callto:00492642210872"
-				title="Diese Telefonnummer mit Ihrem Standard VoIP-Programm anrufen">02642 . 210 872</a
-			><br />
-			E-Mail:
-			<a
-				href="mailto:info@dr-bertgen-giesen.de"
-				title="Eine E-Mail an info@dr-bertgen-giesen.de mit Ihrem Standardprogramm schreiben"
-				>info@dr-bertgen-giesen.de</a
-			><br />
-		</div>
-		<div class="one_third two">
-			<FooterLogo />
+		<div class="row" style="margin-bottom:1em;">
+			<div class="one_third one">
+				<span>Praxis Dr. Bertgen-Giesen</span>
+				Seelenstraße 8<br />
+				53424 Remagen<br />
+				(Vorübergehend)
+			</div>
+			<div class="one_third two">
+				<FooterLogo />
+			</div>
+			<div class="one_third three">
+				<span>Praxis für Beratung, Coaching und Supervision</span>
+				Gregor-Mendel-Straße 26<br />
+				53115 Bonn<br />
+				Telefon:
+				<a
+					href="callto:00492289107648"
+					title="Diese Telefonnummer mit Ihrem Standard VoIP-Programm anrufen">0228 . 910 76 48</a
+				><br />
+				E-Mail:
+				<a
+					href="mailto:info@dr-bertgen-giesen.de"
+					title="Eine E-Mail an info@dr-bertgen-giesen.de mit Ihrem Standardprogramm schreiben"
+					>info@dr-bertgen-giesen.de</a
+				>
+			</div>
 		</div>
 
-		<div class="one_third three">
-			<span>Praxis für Beratung, Coaching und Supervision</span>
-
-			Gregor-Mendel-Straße 26<br />
-			53115 Bonn Telefon:<br />
-			<a
-				href="callto:00492289107648"
-				title="Diese Telefonnummer mit Ihrem Standard VoIP-Programm anrufen">0228 . 910 76 48</a
-			><br />
-			E-Mail:
-			<a
-				href="mailto:info@dr-bertgen-giesen.de"
-				title="Eine E-Mail an info@dr-bertgen-giesen.de mit Ihrem Standardprogramm schreiben"
-				>info@dr-bertgen-giesen.de</a
-			><br />
-		</div>
 		<span>
 			Terminvergabe nach vorheriger telefonischer Absprache | Alle Kassen und privat |
 			<a href="{base}/sitemap" title="Sitemap">Sitemap</a>

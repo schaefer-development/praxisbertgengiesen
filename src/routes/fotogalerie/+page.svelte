@@ -27,12 +27,12 @@
 
 	<div id="main">
 		<div class="inside">
-			<h2>Praxis Remagen</h2>
+			<!--<h2>Praxis Remagen</h2>
 			<br />
 			<Slideshow1 slot="mounted" />
 			<br /><br />
 			<hr />
-			<br /><br />
+			<br /><br />-->
 			<h2>Praxis Bonn</h2>
 			<br />
 			<Slideshow2 slot="mounted" />

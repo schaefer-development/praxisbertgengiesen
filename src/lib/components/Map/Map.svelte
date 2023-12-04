@@ -16,7 +16,8 @@
 	];
 	export let zoom = 10.2;
 	export let coordinate1 = [50.71571944342756, 7.102766811824819]; // Gregor-Mendel-Straße 26, 53115 Bonn
-	export let coordinate2 = [50.579969420507744, 7.2261527559490055]; // Deichweg 6, 53424 Remagen
+	export let coordinate2 = [50.57786526283833, 7.232729528867138]; // Seelenstraße 8, 53424 Remagen
+	export let coordinate3 = [50.579969420507744, 7.2261527559490055]; // Deichweg 6, 53424 Remagen
 	export let setView = [50.655984700815495, 7.189006506251863]; // center of map
 	export let mapAttributes = {
 		style: 'width: 100%; height: 300px;'

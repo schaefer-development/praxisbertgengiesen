@@ -32,7 +32,7 @@
 					<p>Praxiszeiten: Werktags von 9:00 bis 18:00 Uhr.</p>
 				</div>
 
-				<div class="ce_text col-xs-12 col-sm-6 col-md-6 block">
+				<!--	<div class="ce_text col-xs-12 col-sm-6 col-md-6 block">
 					<h3>Praxis Dr. Bertgen-Giesen</h3>
 					<p>
 						Deichweg 6<br /> 53424 Remagen<br /> Telefon:
@@ -52,6 +52,15 @@
 							>Anreise mit dem Zug</strong
 						><br />Sie finden uns nur wenige Gehminuten vom Bahnhof Remagen entfernt. Der Deichweg
 						ist die Verlängerung der Rheinpromenade.
+					</p>
+				</div>-->
+				<div class="ce_text col-xs-12 col-sm-6 col-md-6 block">
+					<h3>Praxis Dr. Bertgen-Giesen</h3>
+					<p>
+						<strong
+							>Die Praxis im Deichweg 6 in Remagen wurde am 30.11.2023 geschlossen.<br />Sie finden
+							mich vorübergehend in der Seelenstrasse 8, 53424 Remagen.</strong
+						>
 					</p>
 				</div>
 

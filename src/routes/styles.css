@@ -8493,7 +8493,6 @@ span.label_praxis {
 	display: inline-block;
 	vertical-align: top;
 	font-weight: normal;
-	padding-bottom: 1em;
 	font-size: 1em;
 }
 #footer .inside .one_third.one {
@@ -8503,7 +8502,7 @@ span.label_praxis {
 #footer .inside .one_third.two {
 	text-align: center;
 	width: 19%;
-	height: 140px;
+	height: 100px;
 }
 #footer .inside .one_third.three {
 	text-align: left;

@@ -3,10 +3,10 @@ import * as shared from '../entries/pages/selbstzahler/_page.ts.js';
 export const index = 17;
 export const component = async () =>
 	(await import('../entries/pages/selbstzahler/_page.svelte.js')).default;
-export const file = '_app/immutable/components/pages/selbstzahler/_page.svelte-2b919c7e.js';
+export const file = '_app/immutable/components/pages/selbstzahler/_page.svelte-0f54166b.js';
 export { shared };
 export const imports = [
-	'_app/immutable/components/pages/selbstzahler/_page.svelte-2b919c7e.js',
+	'_app/immutable/components/pages/selbstzahler/_page.svelte-0f54166b.js',
 	'_app/immutable/chunks/paths-18c1a41e.js',
 	'_app/immutable/chunks/bg_grausesessel-7257842e.js',
 	'_app/immutable/chunks/ContactAside-79893cd7.js',
