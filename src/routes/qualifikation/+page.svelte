@@ -37,6 +37,7 @@
 						- Promotion zum Dr. phil. <br /><br />Anerkennung als Supervisorin durch den
 						Berufsverband der Deutschen Psychologen
 					</p>
+
 					<p>
 						Approbation zur Psychologischen Psychotherapeutin (Psychotherapeutenkammer
 						Rheinland-Pfalz)
@@ -48,6 +49,10 @@
 					<p>Anerkennung als Moderatorin Qualitätszirkel (Ärztekammer Nordrhein)</p>
 					<h3><br /><br />Mitgliedschaften und Akkreditierungen</h3>
 					<p>
+						<strong> Landespsychotherapeutenkammer NRW</strong><br />
+						Willstätterstraße 10<br />40549 Düsseldorf
+						<br /><br />
+
 						<strong>Landespsychotherapeutenkammer Rheinland-Pfalz</strong><br
 						/>Wilhelm-Theodor-Römheld-Str. 30<br />55130 Mainz<br /><br /><strong
 							>Ärztekammer Nordrhein</strong

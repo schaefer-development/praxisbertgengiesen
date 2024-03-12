@@ -65,22 +65,19 @@
 
 				<div class="ce_text col-xs-12 col-sm-12 col-md-12 last block">
 					<p>
-						Unser therapeutisches Angebot richtet sich an Erwachsene, die bei einer gesetzlichen
+						Mein therapeutisches Angebot richtet sich an Erwachsene, die bei einer gesetzlichen
 						Krankenkasse, Beihilfestelle oder Privatkasse versichert sind.
-						<br />Meike Arts, Psychologische Psychotherapeutin und Dr. phil. Anna Katzer sind die
-						Ansprechpartnerinnen für Gesetzlich Versicherte.
 					</p>
 
 					<p>
 						Als Wahlleistungen biete ich darüber hinaus Coaching oder Beratung an.<br />
 						Zusätzlich arbeite ich als Supervisorin für ärztlich oder psychotherapeutisch tätige Kollegen.
 					</p>
-
 					<hr />
 					<p style="margin-top:30px;margin-bottom:30px;">
 						<strong
 							>Die Praxis im Deichweg 6 in Remagen wurde am 30.11.2023 geschlossen. Sie finden mich
-							vorübergehend in der Seelenstrasse 8, 53424 Remagen.</strong
+							ab dem 1. April in meiner neuen Praxis in der Poppelsdorfer Allee 40b in Bonn.</strong
 						>
 					</p>
 				</div>

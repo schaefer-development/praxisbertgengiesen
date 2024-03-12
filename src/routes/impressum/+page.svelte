@@ -30,8 +30,8 @@
 
 					<h3>Pflichtangaben gemäß §5 TMG</h3>
 					<p>
-						Name und Sitz der Praxis: Praxis Dr. phil. Marion Bertgen-Giesen<br />Seelenstrasse 8<br
-						/>53424 Remagen
+						Name und Sitz der Praxis: Praxis Dr. phil. Marion Bertgen-Giesen<br />Poppelsdorfer
+						Allee 40b<br />53115 Bonn
 					</p>
 					<p>
 						<strong
@@ -49,9 +49,11 @@
 					</p>
 					<p>LANR: 828724108</p>
 					<p>Zuständige Aufsichtsbehörde/Berufskammer gem. §6 Nr. 3 TDG:</p>
+
+					<p>Landespsychotherapeutenkammer NRW, Willstätterstraße 10 in 40549 Düsseldorf</p>
 					<p>
-						Landespsychotherapeutenkammer Rheinland-Pfalz, Diether-von-Isenburg-Straße 9 - 11, 55116
-						Mainz, http://www.laek-rlp.de
+						Landespsychotherapeutenkammer Rheinland-Pfalz, Diether-von-Isenburg-Straße 9 - 11 in
+						55116 Mainz
 					</p>
 					<p>
 						Approbation vom 4.1.1999 verliehen vom Landesamt für Versorgung, Jugend und Soziales in

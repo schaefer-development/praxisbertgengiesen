@@ -8,9 +8,8 @@
 		<div class="row" style="margin-bottom:1em;">
 			<div class="one_third one">
 				<span>Praxis Dr. Bertgen-Giesen</span>
-				Seelenstraße 8<br />
-				53424 Remagen<br />
-				(Vorübergehend)
+				Poppelsdorfer Allee 40b<br />
+				53115 Bonn<br />
 			</div>
 			<div class="one_third two">
 				<FooterLogo />

@@ -14,11 +14,12 @@
 			maxZoom: 19
 		}
 	];
-	export let zoom = 10.2;
+	export let zoom = 12;
 	export let coordinate1 = [50.71571944342756, 7.102766811824819]; // Gregor-Mendel-Straße 26, 53115 Bonn
 	export let coordinate2 = [50.57786526283833, 7.232729528867138]; // Seelenstraße 8, 53424 Remagen
 	export let coordinate3 = [50.579969420507744, 7.2261527559490055]; // Deichweg 6, 53424 Remagen
-	export let setView = [50.655984700815495, 7.189006506251863]; // center of map
+	export let coordinate4 = [50.72961653679769, 7.097153861761266]; // Poppelsdorfer Allee 40B
+	export let setView = [50.72471775495108, 7.104558634645793]; // center of map
 	export let mapAttributes = {
 		style: 'width: 100%; height: 300px;'
 	};
@@ -29,7 +30,7 @@
 		const map = L.map('map', { scrollWheelZoom: false }).setView(setView, zoom);
 		L.tileLayer.apply(null, layerOptions).addTo(map);
 		L.marker(coordinate1, { icon }).addTo(map);
-		L.marker(coordinate2, { icon }).addTo(map);
+		L.marker(coordinate4, { icon }).addTo(map);
 
 		return () => map && map.remove();
 	});

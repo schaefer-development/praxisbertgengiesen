@@ -35,10 +35,9 @@
 				<div class="ce_text col-xs-12 col-sm-6 col-md-6 block">
 					<h3>Praxis Dr. Bertgen-Giesen</h3>
 					<p>
-						<strong
-							>Die Praxis im Deichweg 6 in Remagen wurde am 30.11.2023 geschlossen.<br />Sie finden
-							mich vorübergehend in der Seelenstrasse 8, 53424 Remagen.</strong
-						>
+						Die Praxis im Deichweg 6 in Remagen wurde am 30.11.2023 geschlossen.<br /><strong
+							>Sie finden mich ab dem 1. April 2024 in der Poppelsdorfer Allee 40b in 53115 Bonn
+						</strong>
 					</p>
 				</div>
 
