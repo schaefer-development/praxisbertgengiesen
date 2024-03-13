@@ -57,6 +57,7 @@
 						>
 					</p>
 					<p>&nbsp;</p>
+					<p><strong>ZUR GREGOR-MENDEL-STRASSE:</strong></p>
 					<p>
 						<strong>Anfahrt mit dem Auto </strong><br />
 						Autobahnabfahrt Bonn Poppelsdorf, auf Reuterstraße bleiben bis Argelanderstraße, dort rechts
